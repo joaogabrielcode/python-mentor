@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-25/43 exercícios concluídos (58.1%).
+26/43 exercícios concluídos (60.5%).
 
-Exercício atual: [03 — Faturamento por região](06_dicionarios/ex03_faturamento_regioes.py).
+Exercício atual: [04 — Média de desempenho](06_dicionarios/ex04_media_desempenho.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -22,7 +22,7 @@ O registro é manual e não verifica se a solução está correta.
 | Inputs | 3/3 | 100% |
 | Listas | 5/5 | 100% |
 | Condicionais | 5/5 | 100% |
-| Dicionários | 2/5 | 40% |
+| Dicionários | 3/5 | 60% |
 | Laços for | 0/5 | 0% |
 | Funções | 0/5 | 0% |
 | Tuplas | 0/5 | 0% |
@@ -69,7 +69,7 @@ O registro é manual e não verifica se a solução está correta.
 
 - [x] [01 — Atualização de clientes](06_dicionarios/ex01_atualizar_clientes.py)
 - [x] [02 — Consulta de estoque](06_dicionarios/ex02_consultar_estoque.py)
-- [ ] [03 — Faturamento por região](06_dicionarios/ex03_faturamento_regioes.py)
+- [x] [03 — Faturamento por região](06_dicionarios/ex03_faturamento_regioes.py)
 - [ ] [04 — Média de desempenho](06_dicionarios/ex04_media_desempenho.py)
 - [ ] [05 — Remoção de produto](06_dicionarios/ex05_remover_produto.py)
 
