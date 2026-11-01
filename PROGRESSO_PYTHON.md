@@ -10,3 +10,4 @@ com uma linha por tentativa.
 | Data | Exercício | Conceitos praticados | Resultado e nota | Principais dificuldades | Compreensão demonstrada |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-01 | [01 — Atualização de clientes](06_dicionarios/ex01_atualizar_clientes.py) | Dicionários, acesso por chave, inserção e soma com `+=`, `print` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Adiciona Marcos, acumula a compra de Alon e preserva os demais valores; execução e saída conferidas |
+| 2026-11-01 | [02 — Consulta de estoque](06_dicionarios/ex02_consultar_estoque.py) | Dicionários, `in`, acesso por chave, `if/else`, `input`, `strip` e `lower` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Normaliza a entrada, verifica a existência da chave antes do acesso e informa a quantidade ou a ausência do produto; cinco casos executados |

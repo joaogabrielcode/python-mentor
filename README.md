@@ -49,7 +49,7 @@ python3 01_variaveis/ex01_bonus_vendas.py
 ## Dicionários
 
 - [x] [01 — Atualização de clientes](06_dicionarios/ex01_atualizar_clientes.py)
-- [ ] [02 — Consulta de estoque](06_dicionarios/ex02_consultar_estoque.py)
+- [x] [02 — Consulta de estoque](06_dicionarios/ex02_consultar_estoque.py)
 - [ ] [03 — Faturamento por região](06_dicionarios/ex03_faturamento_regioes.py)
 - [ ] [04 — Média de desempenho](06_dicionarios/ex04_media_desempenho.py)
 - [ ] [05 — Remoção de produto](06_dicionarios/ex05_remover_produto.py)
