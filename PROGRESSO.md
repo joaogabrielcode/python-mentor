@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-28/43 exercícios concluídos (65.1%).
+29/43 exercícios concluídos (67.4%).
 
-Exercício atual: [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py).
+Exercício atual: [02 — Comissão de vendas](07_lacos_for/ex02_comissao_vendas.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -23,7 +23,7 @@ O registro é manual e não verifica se a solução está correta.
 | Listas | 5/5 | 100% |
 | Condicionais | 5/5 | 100% |
 | Dicionários | 5/5 | 100% |
-| Laços for | 0/5 | 0% |
+| Laços for | 1/5 | 20% |
 | Funções | 0/5 | 0% |
 | Tuplas | 0/5 | 0% |
 
@@ -75,7 +75,7 @@ O registro é manual e não verifica se a solução está correta.
 
 ## Laços for
 
-- [ ] [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py)
+- [x] [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py)
 - [ ] [02 — Comissão de vendas](07_lacos_for/ex02_comissao_vendas.py)
 - [ ] [03 — Estoque crítico](07_lacos_for/ex03_estoque_critico.py)
 - [ ] [04 — Custos mensais](07_lacos_for/ex04_custos_mensais.py)

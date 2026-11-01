@@ -56,7 +56,7 @@ python3 01_variaveis/ex01_bonus_vendas.py
 
 ## Laços for
 
-- [ ] [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py)
+- [x] [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py)
 - [ ] [02 — Comissão de vendas](07_lacos_for/ex02_comissao_vendas.py)
 - [ ] [03 — Estoque crítico](07_lacos_for/ex03_estoque_critico.py)
 - [ ] [04 — Custos mensais](07_lacos_for/ex04_custos_mensais.py)
