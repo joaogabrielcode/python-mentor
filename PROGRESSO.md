@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-27/43 exercícios concluídos (62.8%).
+28/43 exercícios concluídos (65.1%).
 
-Exercício atual: [05 — Remoção de produto](06_dicionarios/ex05_remover_produto.py).
+Exercício atual: [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -22,7 +22,7 @@ O registro é manual e não verifica se a solução está correta.
 | Inputs | 3/3 | 100% |
 | Listas | 5/5 | 100% |
 | Condicionais | 5/5 | 100% |
-| Dicionários | 4/5 | 80% |
+| Dicionários | 5/5 | 100% |
 | Laços for | 0/5 | 0% |
 | Funções | 0/5 | 0% |
 | Tuplas | 0/5 | 0% |
@@ -71,7 +71,7 @@ O registro é manual e não verifica se a solução está correta.
 - [x] [02 — Consulta de estoque](06_dicionarios/ex02_consultar_estoque.py)
 - [x] [03 — Faturamento por região](06_dicionarios/ex03_faturamento_regioes.py)
 - [x] [04 — Média de desempenho](06_dicionarios/ex04_media_desempenho.py)
-- [ ] [05 — Remoção de produto](06_dicionarios/ex05_remover_produto.py)
+- [x] [05 — Remoção de produto](06_dicionarios/ex05_remover_produto.py)
 
 ## Laços for
 
