@@ -28,9 +28,11 @@ Os assuntos seguem esta ordem:
 | [08_functions](08_functions/) | Parâmetros, retorno e reutilização de código |
 | [09_tuples](09_tuples/) | Tuplas, desempacotamento e retornos com múltiplos valores |
 
-Os nomes das pastas e os títulos das seções estão em inglês. Os enunciados,
-os nomes dos arquivos de exercícios e os registros de estudo estão em português.
-Alguns arquivos contêm apenas o enunciado, preparado para uma próxima etapa.
+Os nomes das pastas e os títulos das seções estão em inglês. Os exercícios
+pendentes mantêm os enunciados em português para a leitura inicial. Ao publicar
+um exercício resolvido, traduzo o enunciado, os comentários, as variáveis e
+as mensagens para inglês. Os nomes dos arquivos e os registros de estudo
+continuam em português.
 
 ## Choosing a branch
 
@@ -56,8 +58,9 @@ git switch -c my-study
 
 Para acompanhar minhas soluções, acesse a
 [branch my-practice](https://github.com/joaogabrielcode/python-mentor/tree/my-practice).
-Esta branch mantém meus exercícios em português, nas pastas numeradas da raiz,
-com seu próprio checklist e histórico de revisões.
+Esta branch mantém minha prática nas pastas numeradas da raiz, com seu próprio
+checklist e histórico. Os exercícios resolvidos são publicados em inglês; os
+pendentes continuam em português até o momento do commit.
 
 ## Getting started
 
@@ -85,7 +88,8 @@ Se a instalação do Python 3 usar o comando `python`, substitua `python3` por
 ## Running an exercise
 
 Abra um arquivo e leia os comentários iniciais: eles contêm o enunciado e os
-dados necessários. Escreva sua tentativa na área indicada por `# Sua solução:`.
+dados necessários. Nos pendentes, escreva sua tentativa abaixo de
+`# Sua solução:`. Os exercícios já publicados usam `# Your solution:`.
 Depois, a partir da raiz do projeto, execute o arquivo:
 
 ```sh
@@ -217,6 +221,9 @@ não atribui nota nem cria commits. No fluxo com a IA, o histórico de revisão
 Os commits usam inglês e descrevem a ação implementada, como
 `feat(variables): calculate sales bonuses and remaining revenue`.
 Quando um arquivo contém apenas o enunciado, o commit informa essa adição.
+Posso estudar e resolver em português; após a aprovação e a autorização para
+publicar, a tradução para inglês é feita e conferida antes do commit. Ela
+preserva a lógica e mantém os exercícios pendentes em português.
 
 ## Adding exercises
 

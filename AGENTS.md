@@ -71,3 +71,28 @@ registrar nela suas soluções e revisões. Antes de concluir e publicar exercí
 confira a branch ativa e o upstream. A manutenção de enunciados e orientações
 compartilhados pode ser feita nas duas versões sem copiar respostas ou progresso
 pessoal para a versão inicial.
+
+# Tradução antes de publicar a prática pessoal
+
+Na branch `my-practice`, o aluno lê os enunciados em português e pode escrever
+suas tentativas em português durante o estudo. Quando ele autorizar o commit
+de um exercício resolvido, traduza para inglês o enunciado, os comentários,
+os nomes de variáveis e funções criados por ele e as mensagens de entrada e
+saída. Os títulos e os corpos dos commits também devem estar em inglês.
+
+O usuário já autorizou esses ajustes de tradução: não solicite outra confirmação
+só para traduzir. Essa autorização não permite implementar exercícios pendentes,
+refatorar a lógica ou corrigir silenciosamente a solução. Preserve os cálculos,
+as condições e os conceitos usados pelo aluno. Mantenha dados de exemplo e
+nomes próprios quando fizerem parte do enunciado; explique-os em inglês quando
+necessário. Preserve os caminhos existentes e os registros históricos de revisão.
+
+Faça a tradução no momento do commit autorizado, depois da tentativa e revisão,
+e confira novamente a execução com entradas pertinentes. Mantenha os próximos
+enunciados pendentes em português para a leitura inicial do aluno. Antes de
+publicar, atualize o ponto de retomada conforme a mentoria, sem marcar exercícios
+adicionais como concluídos. Separe os commits por exercício.
+
+Esta autorização permanente de tradução prevalece sobre a regra geral de não
+editar exercícios sem autorização e sobre modelos de mensagens da skill.
+As demais alterações na solução continuam exigindo autorização explícita.

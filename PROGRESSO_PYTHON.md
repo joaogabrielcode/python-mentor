@@ -8,6 +8,7 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 - Progresso: 33/43 exercícios concluídos (76,7%); bloco de laços `for` concluído.
 - Último exercício: [05 — Reajuste de preços](07_for_loops/ex05_reajustar_precos.py), aprovado com 10/10 e conclusão publicada no commit `42b8fd3`.
 - Exercício atual para retomar: [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py), primeiro exercício pendente de funções.
+- Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
 - Na sessão, foram esclarecidos o percurso pelas chaves de um dicionário com `for`, o acesso ao valor pela chave e a formatação com `.2f`; as orientações foram aplicadas na solução aprovada.
 
 ## Histórico de revisões

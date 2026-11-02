@@ -27,9 +27,10 @@ The topics follow this order:
 | [08_functions](08_functions/) | Parameters, return values and code reuse |
 | [09_tuples](09_tuples/) | Tuples, unpacking and returning multiple values |
 
-Directory names and section headings are in English. Exercise prompts,
-exercise filenames and study records are in Portuguese. Some files contain
-only a prompt, ready for a future study session.
+Directory names and section headings are in English. Pending prompts remain
+in Portuguese for the initial study session. When a solved exercise is committed,
+its prompt, comments, variable names and input/output messages are translated
+to English. Exercise filenames and study records remain in Portuguese.
 
 ## Choosing a branch
 
@@ -55,8 +56,9 @@ git switch -c my-study
 
 To follow my solutions, visit the
 [my-practice branch](https://github.com/joaogabrielcode/python-mentor/tree/my-practice).
-This branch keeps my Portuguese exercises in the numbered root directories,
-with its own checklist and review history.
+This branch keeps my practice in the numbered root directories, with its own
+checklist and review history. Solved exercises are published in English; pending
+prompts remain in Portuguese until their solutions are ready to commit.
 
 ## Getting started
 
@@ -83,8 +85,8 @@ If your Python 3 installation uses the `python` command, replace `python3` with
 ## Running an exercise
 
 Open a file and read its opening comments for the prompt and required data.
-Write your attempt below `# Sua solução:` (your solution). Then run the file
-from the project root:
+For pending exercises, write your attempt below `# Sua solução:` (your solution).
+Published solutions use `# Your solution:`. Then run the file from the project root:
 
 ```sh
 python3 01_variables/ex01_bonus_vendas.py
@@ -217,6 +219,10 @@ review history is updated separately according to the mentoring instructions.
 Commits use English and describe the implemented behavior, such as
 `feat(variables): calculate sales bonuses and remaining revenue`.
 For files that contain only a prompt, the commit identifies the prompt addition.
+I can study and solve exercises in Portuguese. After approval and authorization
+to publish, the solved exercise is translated to English and checked before
+committing. The translation preserves the logic and keeps pending prompts in
+Portuguese.
 
 ## Adding exercises
 
