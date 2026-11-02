@@ -60,7 +60,7 @@ python3 01_variaveis/ex01_bonus_vendas.py
 - [x] [02 — Comissão de vendas](07_lacos_for/ex02_comissao_vendas.py)
 - [x] [03 — Estoque crítico](07_lacos_for/ex03_estoque_critico.py)
 - [x] [04 — Custos mensais](07_lacos_for/ex04_custos_mensais.py)
-- [ ] [05 — Reajuste de preços](07_lacos_for/ex05_reajustar_precos.py)
+- [x] [05 — Reajuste de preços](07_lacos_for/ex05_reajustar_precos.py)
 
 ## Funções
 
