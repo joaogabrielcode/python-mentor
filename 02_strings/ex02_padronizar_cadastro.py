@@ -1,17 +1,19 @@
-# Exercício 02 — Padronização de cadastro
+# Exercise 02 — Customer data normalization
 #
-# Um cadastro de cliente foi registrado com espaços e capitalização irregulares.
-# Padronize o nome e o e-mail para uso no sistema de vendas.
-# Dados nome = " mArCoS aNtOnIo rOcHa " e email = " MARCOS.ROCHA@GMAIL.COM ", remova os espaços das extremidades.
-# Deixe a primeira letra de cada palavra do nome em maiúscula e o e-mail em minúsculas.
-# Exiba os dois resultados.
+# A customer record contains inconsistent whitespace and capitalization.
+# Normalize the name and email address for use in the sales system.
+# Given name = " mArCoS aNtOnIo rOcHa " and email = " MARCOS.ROCHA@GMAIL.COM ", remove
+# surrounding whitespace.
+# Capitalize the first letter of each word in the name and convert the email to lowercase.
+# Display both results.
 
-# Sua solução:
-nome = " mArCoS aNtOnIo rOcHa "
+# Your solution:
+
+name = " mArCoS aNtOnIo rOcHa "
 email = " MARCOS.ROCHA@GMAIL.COM "
 
-nome = nome.strip().title()
+name = name.strip().title()
 email = email.strip().lower()
 
-print(nome)
+print(name)
 print(email)
