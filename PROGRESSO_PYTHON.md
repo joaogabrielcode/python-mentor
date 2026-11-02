@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 02/11/2026
 
-- Progresso: 34/43 exercícios concluídos (79,1%).
-- Último exercício concluído: [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py), próximo pendente; iniciar a tentativa.
+- Progresso: 35/43 exercícios concluídos (81,4%).
+- Último exercício concluído: [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [03 — Análise de margem](08_functions/ex03_analisar_margem.py), próximo pendente; tentativa em andamento, ainda não revisada.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, praticou função com parâmetro e retorno, métodos de string e reutilização em um `for`; incluiu o teste com os cinco produtos após a primeira revisão.
+- Na sessão, corrigiu as porcentagens e o retorno do cálculo de ISS; versão traduzida para inglês e execução conferida antes da publicação.
 
 ## Histórico de revisões
 
@@ -36,3 +36,6 @@ com uma linha por tentativa.
 | 2026-11-02 | [05 — Reajuste de preços](07_for_loops/ex05_reajustar_precos.py) — tentativa 2 | Dicionários, iteração por chave, porcentagens, atualização de valores e f-strings com `.2f` | Correto — 10/10; conclusão confirmada | Dúvida sobre iteração por chaves e acesso aos valores; aplicou a orientação na saída | Atualiza cada preço e exibe nome e valor com duas casas decimais; execuções com 0%, 10% e 7,5% conferidas |
 | 2026-11-02 | [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py) | Função, parâmetro, `return`, `lower`, `strip` e `title` | Parcialmente correto — 9/10 | Falta testar no arquivo a lista de produtos solicitada no enunciado | Função reutilizável normaliza corretamente os cinco produtos na verificação da revisão; tentativa do aluno testa apenas um nome |
 | 2026-11-02 | [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py) — tentativa 2 | Função, parâmetro, `return`, métodos de string, lista e `for` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Percorre a lista solicitada, chama a função para cada produto e imprime os cinco nomes padronizados corretamente; execução conferida |
+| 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) | Função, parâmetro, `if/else`, porcentagens e `return` | Parcialmente correto — 6/10 | Usa 0.5 e 0.3 (50% e 30%) e retorna valor mais imposto, embora o enunciado peça apenas o imposto | Define e chama a função com as duas notas e aplica corretamente o limite acima de 5000; execução com 0, 2000, 5000, 5001 e 8000 conferida |
+| 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) — tentativa 2 | Função, parâmetro, `if/else`, porcentagens e `return` | Correto — 10/10; aguardando confirmação de conclusão | Corrigiu as taxas e o retorno após orientação | Retorna apenas o imposto, aplica 3% até 5000 e 5% acima; execução com 0, 2000, 5000, 5001 e 8000 conferida |
+| 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) — revisão 3 | Função, parâmetro, `if/else`, porcentagens e `return` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Versão permanece correta; execução confirmou 60 para 2000, 400 para 8000 e taxas corretas no limite de 5000 e acima dele |

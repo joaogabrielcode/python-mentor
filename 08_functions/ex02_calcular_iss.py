@@ -1,8 +1,17 @@
-# Exercício 02 — Cálculo de ISS
+# Exercise 02 — ISS calculation
 #
-# O setor fiscal precisa calcular o ISS de serviços usando uma taxa que varia conforme o valor da nota.
-# Crie calcular_iss, que receba o valor de um serviço e retorne o imposto.
-# A taxa é de 5% para valores acima de R$ 5.000 e de 3% nos demais casos.
-# Use a função para notas de R$ 8.000 e R$ 2.000 e exiba os impostos.
+# The tax department needs to calculate ISS (Brazilian service tax) using a rate that varies with the invoice amount.
+# Create calculate_iss, which receives a service amount and returns the tax.
+# The rate is 5% for amounts above R$ 5,000 and 3% otherwise.
+# Use the function for invoices of R$ 8,000 and R$ 2,000 and display the taxes.
 
-# Sua solução:
+# Your solution:
+
+def calculate_iss(amount):
+  if amount > 5000:
+    return amount * 0.05
+  else:
+    return  amount * 0.03
+
+print(calculate_iss(2000))
+print(calculate_iss(8000))
