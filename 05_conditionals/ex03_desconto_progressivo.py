@@ -1,23 +1,25 @@
-# Exercício 03 — Desconto progressivo
+# Exercise 03 — Progressive discount
 #
-# Uma loja virtual concede descontos conforme o valor do carrinho.
-# Determine o abatimento e quanto o cliente deverá pagar.
-# Receba o valor total da compra e aplique o desconto: a partir de R$ 500, 15%; de R$ 200 até menos de R$ 500, 10%; abaixo de R$ 200, nenhum desconto.
-# Exiba o valor do desconto e o valor final a pagar, formatados em R$.
+# An online store grants discounts based on the cart total.
+# Calculate the discount and the amount the customer must pay.
+# Read the purchase total and apply a 15% discount for R$500 or more, a 10% discount from R$200
+# up to but not including R$500, and no discount below R$200.
+# Display the discount amount and final payment amount, formatted as R$ currency.
 
-# Sua solução:
+# Your solution:
 
-valorCompra = float(input("Qual o valor da sua compra?"))
-desconto15 = 0.15
-desconto10 = 0.10
 
-if valorCompra < 200:
-  print(f"Seu desconto: R$0,00\nValor da compra: R${valorCompra:.2f}")
-elif valorCompra < 500:
-  valorDesconto = valorCompra * desconto10
-  valorCompra = valorCompra - valorDesconto
-  print(f"Seu desconto: R${valorDesconto:.2f}\nValor da compra: R${valorCompra:.2f}")
+purchase_amount = float(input('What is the purchase amount?'))
+discount_rate_15 = 0.15
+discount_rate_10 = 0.10
+
+if purchase_amount < 200:
+  print(f"Your discount: R$0.00\nPurchase amount: R${purchase_amount:.2f}")
+elif purchase_amount < 500:
+  discount_amount = purchase_amount * discount_rate_10
+  purchase_amount = purchase_amount - discount_amount
+  print(f"Your discount: R${discount_amount:.2f}\nPurchase amount: R${purchase_amount:.2f}")
 else:
-  valorDesconto = valorCompra * desconto15
-  valorCompra = valorCompra - valorDesconto
-  print(f"Seu desconto: R${valorDesconto:.2f}\nValor da compra: R${valorCompra:.2f}")
+  discount_amount = purchase_amount * discount_rate_15
+  purchase_amount = purchase_amount - discount_amount
+  print(f"Your discount: R${discount_amount:.2f}\nPurchase amount: R${purchase_amount:.2f}")
