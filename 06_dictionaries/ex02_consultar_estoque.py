@@ -1,15 +1,19 @@
-# Exercício 02 — Consulta de estoque
+# Exercise 02 — Inventory lookup
 #
-# A equipe de logística precisa consultar a disponibilidade de produtos a partir de um nome digitado pelo usuário.
-# Dado estoque = {"teclado": 50, "mouse": 120, "monitor": 30}, peça o nome de um produto, tratando maiúsculas e espaços extras.
-# Se existir, exiba sua quantidade disponível; caso contrário, exiba "Produto não encontrado no sistema".
+# The logistics team needs to check product availability using a name entered by the user.
+# Given inventory = {"teclado": 50, "mouse": 120, "monitor": 30}, ask for a product name and
+# handle capitalization and surrounding whitespace.
+# If it exists, display the available quantity; otherwise, display "Product not found in the
+# system".
+# The sample product label teclado means keyboard.
 
-# Sua solução:
+# Your solution:
 
-estoque = {"teclado": 50, "mouse": 120, "monitor": 30}
-produto = input("Qual produto você quer consultar? ").strip().lower()
 
-if produto in estoque:
-  print(f"Quantidade disponivel: {estoque[produto]}")
+inventory = {"teclado": 50, "mouse": 120, "monitor": 30}
+product = input('Which product would you like to look up? ').strip().lower()
+
+if product in inventory:
+  print(f"Available quantity: {inventory[product]}")
 else:
-  print("Produto não encontrado no sistema")
+  print('Product not found in the system')
