@@ -1,9 +1,11 @@
-# Exercício 01 — Lembretes de treinamento
+# Exercise 01 — Training reminders
 #
-# O sistema de eventos deve simular no console lembretes sobre o início de um treinamento, mostrando o tempo restante em contagem regressiva.
-# Use range() para exibir 10 lembretes em contagem regressiva, com a mensagem "Faltam X minutos para começar o treinamento".
+# An event system must simulate console reminders before a training session starts, counting
+# down the remaining time.
+# Use range() to display 10 countdown reminders with the message "Training starts in X minutes".
 
-# Sua solução:
+# Your solution:
 
-for numero in range(10, 0, -1):
-  print(f"Faltam {numero} minutos para começar o treinamento")
+
+for number in range(10, 0, -1):
+  print(f"Training starts in {number} minutes")
