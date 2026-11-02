@@ -1,19 +1,19 @@
-# Exercício 05 — Triagem de e-mails
+# Exercise 05 — Email routing
 #
-# O atendimento precisa direcionar reclamações aos departamentos responsáveis de acordo com palavras presentes no assunto de cada e-mail.
-# Peça o assunto do e-mail.
-# Se contiver "pagamento" ou "boleto", exiba "Encaminhado para o Financeiro".
-# Se contiver "entrega" ou "atraso", exiba "Encaminhado para a Logística".
-# Caso não se enquadre nessas condições, exiba "Encaminhado para o Suporte Geral".
+# Customer support needs to route complaints to departments based on words in each email
+# subject.
+# Ask for the email subject.
+# If it contains "payment" or "invoice", display "Forwarded to Finance".
+# If it contains "delivery" or "delay", display "Forwarded to Logistics".
+# Otherwise, display "Forwarded to General Support".
 
-# Sua solução:
-assunto_email = input("Qual o assunto do email?").lower().strip()
+# Your solution:
 
-if "pagamento" in assunto_email or "boleto" in assunto_email:
-  print("Encaminhado para o Financeiro")
-elif "entrega" in assunto_email or "atraso" in assunto_email:
-  print("Encaminhado para a Logística")
+email_subject = input('What is the email subject?').lower().strip()
+
+if 'payment' in email_subject or 'invoice' in email_subject:
+  print('Forwarded to Finance')
+elif 'delivery' in email_subject or 'delay' in email_subject:
+  print('Forwarded to Logistics')
 else:
-  print("Encaminhado para o Suporte Geral")
-
-
+  print('Forwarded to General Support')
