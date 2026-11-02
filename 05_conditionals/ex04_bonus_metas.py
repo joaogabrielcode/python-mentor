@@ -1,21 +1,23 @@
-# Exercício 04 — Bônus por metas
+# Exercise 04 — Target-based bonus
 #
-# A bonificação de um vendedor depende tanto de seu resultado individual quanto do resultado da loja.
-# Verifique as duas metas antes de definir o bônus.
-# Peça as vendas e a meta individual do vendedor, além das vendas totais e da meta da loja.
-# Se ambas as metas forem atingidas, o bônus será de 20% das vendas do vendedor; caso contrário, será zero.
-# Exiba: "Seu bônus este mês é de: R$[valor]".
+# A salesperson's bonus depends on both their individual result and the store's overall result.
+# Check both targets before deciding the bonus.
+# Ask for the salesperson's sales and individual target, as well as the store's total sales and
+# target.
+# If both targets are met, the bonus is 20% of the salesperson's sales; otherwise, it is zero.
+# Display: "Your bonus this month is: R$[amount]".
 
-# Sua solução:
+# Your solution:
 
-vendas_loja = float(input("Quanto a loja vendeu?"))
-meta_loja = float(input("Qual era a meta de vendas da loja?"))
 
-vendas_vendedor = float(input("Quanto o vendedor vendeu"))
-meta_vendedor = float(input("Qual era a meta de vendas do vendedor?"))
+store_sales = float(input('How much did the store sell?'))
+store_target = float(input('What was the store sales target?'))
 
-if vendas_loja >= meta_loja and vendas_vendedor >= meta_vendedor:
-  bonus = vendas_vendedor * 0.20
-  print(f"Seu bônus este mês é de: R${bonus:.2f}")
+salesperson_sales = float(input('How much did the salesperson sell?'))
+salesperson_target = float(input('What was the salesperson sales target?'))
+
+if store_sales >= store_target and salesperson_sales >= salesperson_target:
+  bonus = salesperson_sales * 0.20
+  print(f"Your bonus this month is: R${bonus:.2f}")
 else:
-  print(f"Seu bônus este mês é de: R$ 0,00")
+  print(f"Your bonus this month is: R$ 0.00")
