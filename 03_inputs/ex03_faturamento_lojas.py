@@ -1,17 +1,18 @@
-# Exercício 03 — Faturamento das lojas
+# Exercise 03 — Store revenue
 #
-# Um gerente quer comparar o faturamento de duas filiais usando valores informados durante a execução do programa.
-# Peça os faturamentos da Loja A e da Loja B, aceitando números decimais.
-# Calcule o faturamento total e a média entre as duas lojas.
-# Exiba ambos em uma única mensagem, com separador de milhar e duas casas decimais.
+# A manager wants to compare two branches' revenues using values entered while the program runs.
+# Ask for the revenues of Store A and Store B, accepting decimal numbers.
+# Calculate the combined revenue and the average of the two stores.
+# Display both in a single message, with thousands separators and two decimal places.
 
-# Sua solução:
-
-lojaA = float(input("Qual o faturamento da loja A?"))
-lojaB = float(input("Qual o faturamento da loja B?"))
-
-faturamento = lojaA + lojaB
-media = faturamento / 2
+# Your solution:
 
 
-print(f"O faturamento total foi de: {faturamento:,.2f} e a média foi: {media:,.2f}")
+store_a = float(input('What is the revenue of Store A?'))
+store_b = float(input('What is the revenue of Store B?'))
+
+revenue = store_a + store_b
+average = revenue / 2
+
+
+print(f"Total revenue was: {revenue:,.2f} and the average was: {average:,.2f}")
