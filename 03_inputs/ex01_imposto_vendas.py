@@ -1,24 +1,29 @@
-# Exercício 01 — Imposto sobre vendas
+# Exercise 01 — Sales tax
 #
-# O setor fiscal de uma prestadora de serviços precisa calcular o imposto de notas cujos valores podem ser copiados de planilhas com formatação monetária.
-# Peça o valor bruto de uma nota fiscal, aceitando "R$ 5.000,00".
-# Remova "R$", trate os separadores numéricos, troque a vírgula por ponto e converta o valor para float.
-# Calcule o imposto de 15% sobre o valor bruto e exiba o imposto com duas casas decimais em uma mensagem com f-string.
+# A service company's tax department needs to calculate tax on invoices whose amounts may be
+# copied from spreadsheets as formatted currency.
+# Ask for an invoice's gross amount, accepting Brazilian currency formatting such as "R$
+# 5.000,00".
+# Remove "R$", handle numeric separators, replace the decimal comma with a period and convert
+# the value to float.
+# Calculate 15% tax on the gross amount and display the tax to two decimal places in an f-string
+# message.
 
-# Sua solução:
+# Your solution:
 
-valor_bruto = input("Qual o valor bruto da nota Fiscal?")
-valor_bruto = valor_bruto.replace("R$", "").strip()
-# Remove o R$ e remove os espaços das pontas
 
-valor_bruto = valor_bruto.replace(".", "").replace(",", ".")
-# remove o "." e tambem troca a virgula do final por "."
+gross_amount = input('What is the gross invoice amount?')
+gross_amount = gross_amount.replace("R$", "").strip()
+# Remove R$ and surrounding whitespace.
 
-valor_bruto = float(valor_bruto)
-# Transforma o valor que estava em string em float (Numero decimal)
+gross_amount = gross_amount.replace(".", "").replace(",", ".")
+# Remove thousands separators and replace the decimal comma with a period.
 
-imposto = valor_bruto * 0.15
-# Calcula o imposto de 15%
+gross_amount = float(gross_amount)
+# Convert the string value to a float (decimal number).
 
-print(f"O imposto é de R$ {imposto:.2f}")
-# Mostra o imposto calculado ja formatado para 2 casas decimais. 
+tax = gross_amount * 0.15
+# Calculate the 15% tax.
+
+print(f"The tax is R$ {tax:.2f}")
+# Display the calculated tax to two decimal places.
