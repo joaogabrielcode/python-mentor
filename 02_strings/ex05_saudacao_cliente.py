@@ -1,13 +1,16 @@
-# Exercício 05 — Saudação ao cliente
+# Exercise 05 — Customer greeting
 #
-# Uma mensagem de boas-vindas deve cumprimentar o cliente pelo primeiro nome, embora o cadastro contenha seu nome completo.
-# Dado o nome completo "lucas ferreira souza", encontre a posição do primeiro espaço e use fatiamento para extrair o primeiro nome.
-# Deixe a primeira letra do nome em maiúscula e exiba a mensagem: "Olá, [Primeiro Nome], seja bem-vindo ao nosso clube!"
+# A welcome message should greet a customer by their first name, although the record contains
+# their full name.
+# Given the full name "lucas ferreira souza", find the first space and use slicing to extract
+# the first name.
+# Capitalize its first letter and display: "Hello, [First Name], welcome to our club!".
 
-# Sua solução:
+# Your solution:
 
-nome_completo = "lucas ferreira souza"
-posicao = nome_completo.find(" ")
-nome = nome_completo[:posicao].capitalize()
 
-print(f"Olá, {nome}, seja bem-vindo ao nosso clube!")
+full_name = "lucas ferreira souza"
+position = full_name.find(" ")
+name = full_name[:position].capitalize()
+
+print(f"Hello, {name}, welcome to our club!")
