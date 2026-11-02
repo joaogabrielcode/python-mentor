@@ -1,14 +1,17 @@
-# Exercício 01 — Atualização de clientes
+# Exercise 01 — Customer updates
 #
-# O sistema de relacionamento com clientes registra o faturamento acumulado por pessoa e precisa incorporar uma nova compra e um novo cliente.
-# Dado clientes = {"Lira": 5000, "Alon": 3000, "Julia": 4500}, some uma nova compra de R$ 1.500 ao faturamento de "Alon".
-# Adicione "Marcos" com faturamento inicial de R$ 2.000.
-# Exiba o dicionário atualizado.
+# A customer relationship system stores accumulated revenue per person and needs to include a
+# new purchase and a new customer.
+# Given customers = {"Lira": 5000, "Alon": 3000, "Julia": 4500}, add a new purchase of R$1,500
+# to "Alon"'s revenue.
+# Add "Marcos" with initial revenue of R$2,000.
+# Display the updated dictionary.
 
-# Sua solução:
+# Your solution:
 
-dado_clientes = {"Lira": 5000, "Alon": 3000, "Julia": 4500}
-dado_clientes["Marcos"] = 2000
-dado_clientes["Alon"] += 1500
 
-print(dado_clientes)
+customers = {"Lira": 5000, "Alon": 3000, "Julia": 4500}
+customers["Marcos"] = 2000
+customers["Alon"] += 1500
+
+print(customers)
