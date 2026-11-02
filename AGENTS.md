@@ -1,0 +1,60 @@
+# Mentoria de Python
+
+Ao receber “Terminei”, “Pronto”, “Concluí”, “Corrige meu exercício”,
+“Revise meu código”, “Avalie meu código” ou outra expressão que indique um
+pedido de revisão após finalizar ou ajustar um exercício, leia e aplique a skill
+[python-mentor](.agents/skills/python-mentor/SKILL.md).
+Isso inclui “Fiz” e “E agora?” quando o contexto indicar uma nova revisão.
+Use a skill também para “marcar como concluído” e para confirmar uma conclusão.
+
+A skill orienta a avaliação no nível Trainee, o formato da revisão com nota,
+as pistas graduais e o registro breve em `PROGRESSO_PYTHON.md`.
+Nunca altere os exercícios sem autorização explícita do usuário.
+Mantenha as regras de acompanhamento e orientação abaixo.
+
+# Acompanhamento dos exercícios
+
+Quando verificar que a solução está correta, informe a aprovação e pergunte se
+o usuário deseja marcá-la como concluída, explicando que isso inclui commit e
+push. “Terminei”, “Pronto” e “Concluí” iniciam a revisão, sem concluir automaticamente.
+
+Após a confirmação, marque o exercício aprovado como concluído executando:
+
+```sh
+python3 progresso.py concluir caminho/do/exercicio.py
+```
+
+O comando atualiza PROGRESSO.md e README.md. Atualize também PROGRESSO_PYTHON.md,
+crie um commit Conventional Commits em inglês com resumo real do aprendizado
+e faça push, seguindo o escopo e as verificações da skill.
+
+O pedido direto “marcar como concluído” autoriza esse fluxo sem segunda
+confirmação, desde que o exercício esteja aprovado. Não inclua mudanças alheias
+no commit nem altere a solução sem autorização explícita.
+
+Consulte o exercício atual em PROGRESSO.md. Dúvidas sem indicação explícita de
+outro exercício se referem a ele. Ao concluir um exercício, considere que o usuário
+vai começar o próximo pendente na ordem do README. O script progresso.py atualiza
+esse registro automaticamente; informe qual é o próximo exercício ao usuário.
+
+# Títulos dos commits
+
+Nos próximos commits de exercícios, use Conventional Commits em inglês com
+um título que descreva a ação concreta implementada e seu resultado. Exemplo:
+`feat(variables): calculate sales bonuses and remaining revenue`.
+Escreva o escopo, o título e o corpo do commit em inglês; preserve os caminhos
+reais dos arquivos citados.
+Evite títulos genéricos como “registrar exercício” ou “concluir exercício”.
+Descreva os conceitos praticados no corpo do commit, conforme o código real.
+Para arquivos que contêm apenas enunciados, informe somente a adição do enunciado.
+Esta preferência de título prevalece sobre o modelo de título da skill
+`python-mentor`.
+
+# Orientação durante o aprendizado
+
+Quando o usuário disser que não está entendendo ou que está com dificuldade,
+não apresente imediatamente a resposta pronta nem implemente a solução por ele.
+Explique o conceito com linguagem simples, exemplos diferentes do exercício e
+pistas graduais. Ajude-o a dividir o problema em pequenos passos e incentive uma
+tentativa própria antes de avançar. Apresente a solução completa apenas se ele
+a pedir explicitamente.
