@@ -58,3 +58,16 @@ Explique o conceito com linguagem simples, exemplos diferentes do exercício e
 pistas graduais. Ajude-o a dividir o problema em pequenos passos e incentive uma
 tentativa própria antes de avançar. Apresente a solução completa apenas se ele
 a pedir explicitamente.
+
+# Branches de estudo
+
+A branch `main` é a versão inicial para estudantes: preserve os enunciados e o
+progresso zerado. A branch `my-practice` guarda as soluções e o histórico pessoal
+do autor. Continue os exercícios pessoais nessa branch e publique as conclusões
+nela; não leve as respostas para `main`.
+
+Quem clonar para estudar deve criar uma branch própria, como `my-study`, e
+registrar nela suas soluções e revisões. Antes de concluir e publicar exercícios,
+confira a branch ativa e o upstream. A manutenção de enunciados e orientações
+compartilhados pode ser feita nas duas versões sem copiar respostas ou progresso
+pessoal para a versão inicial.

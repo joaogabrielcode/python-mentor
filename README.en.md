@@ -31,6 +31,33 @@ Directory names and section headings are in English. Exercise prompts,
 exercise filenames and study records are in Portuguese. Some files contain
 only a prompt, ready for a future study session.
 
+## Choosing a branch
+
+This repository has two versions:
+
+| Branch | Contents |
+| --- | --- |
+| `main` | All exercise prompts, space for solutions and progress set to zero |
+| `my-practice` | My solutions, reviews and personal progress |
+
+To start from scratch, visit the [main branch](https://github.com/joaogabrielcode/python-mentor/tree/main).
+It contains `exercises/pt/` and `exercises/en/`, with prompts and progress
+tracked separately for each language. Follow that branch's guide to clone the
+starter version or download its ZIP. The command below clones my practice version.
+My personal solutions remain public on `my-practice`.
+
+To save and publish your own progress, fork the repository and use your fork's
+URL when cloning. After cloning, create your own study branch:
+
+```sh
+git switch -c my-study
+```
+
+To follow my solutions, visit the
+[my-practice branch](https://github.com/joaogabrielcode/python-mentor/tree/my-practice).
+This branch keeps my Portuguese exercises in the numbered root directories,
+with its own checklist and review history.
+
 ## Getting started
 
 You need Python 3, Git to clone the repository, a text or code editor and a
@@ -40,12 +67,9 @@ use Python's built-in features and require no external libraries.
 Clone the repository and enter its directory:
 
 ```sh
-git clone https://github.com/joaogabrielcode/python-fundamentals.git
-cd python-fundamentals
+git clone --single-branch --branch my-practice https://github.com/joaogabrielcode/python-mentor.git
+cd python-mentor
 ```
-
-The project is called Python Mentor; the repository URL and the directory
-created by cloning still use `python-fundamentals`.
 
 Check that Python is available:
 
@@ -162,7 +186,9 @@ otherwise, you carry out those steps yourself.
 | [progresso.py](progresso.py) | Updates to the checklist and totals |
 
 Both guides share the [checklist in the Portuguese README](README.md#variables).
-The records reflect my personal progress in this project and are in Portuguese.
+On `main`, the checklist starts at zero. On `my-practice`, the records reflect
+my personal progress. On your own study branch, you track your own solutions
+and reviews. The progress records are in Portuguese.
 
 To synchronize totals without completing another exercise:
 

@@ -32,6 +32,33 @@ Os nomes das pastas e os títulos das seções estão em inglês. Os enunciados,
 os nomes dos arquivos de exercícios e os registros de estudo estão em português.
 Alguns arquivos contêm apenas o enunciado, preparado para uma próxima etapa.
 
+## Choosing a branch
+
+Este repositório tem duas versões:
+
+| Branch | Conteúdo |
+| --- | --- |
+| `main` | Todos os enunciados, espaço para resolver e progresso zerado |
+| `my-practice` | Minhas soluções, revisões e progresso pessoal |
+
+Para começar do zero, acesse a [branch main](https://github.com/joaogabrielcode/python-mentor/tree/main).
+Ela contém as versões `exercises/pt/` e `exercises/en/`, com enunciados e
+progresso separados por idioma. Siga o guia dessa branch para clonar a versão
+inicial ou baixar seu ZIP. O comando abaixo clona minha versão de prática.
+As soluções pessoais continuam públicas na branch `my-practice`.
+
+Se quiser salvar e publicar sua própria evolução, faça um fork do repositório
+e use o endereço do seu fork no clone. Depois de clonar, crie sua branch de estudo:
+
+```sh
+git switch -c my-study
+```
+
+Para acompanhar minhas soluções, acesse a
+[branch my-practice](https://github.com/joaogabrielcode/python-mentor/tree/my-practice).
+Esta branch mantém meus exercícios em português, nas pastas numeradas da raiz,
+com seu próprio checklist e histórico de revisões.
+
 ## Getting started
 
 Você precisa de Python 3, Git para clonar o repositório, um editor de texto ou
@@ -42,12 +69,9 @@ externas para instalar.
 Clone o repositório e entre na pasta:
 
 ```sh
-git clone https://github.com/joaogabrielcode/python-fundamentals.git
-cd python-fundamentals
+git clone --single-branch --branch my-practice https://github.com/joaogabrielcode/python-mentor.git
+cd python-mentor
 ```
-
-O projeto se chama Python Mentor; o endereço do repositório e a pasta criada
-pelo clone ainda usam `python-fundamentals`.
 
 Confira se o Python está disponível:
 
@@ -163,7 +187,9 @@ arquivos e aos comandos; caso contrário, essas etapas ficam com você.
 | [progresso.py](progresso.py) | Atualização do checklist e dos totais |
 
 O checklist no final deste README é compartilhado pelas duas versões do guia.
-Os registros refletem meu progresso pessoal no projeto.
+Na `main`, o checklist começa zerado. Na `my-practice`, os registros refletem
+meu progresso pessoal. Na sua branch de estudo, você acompanha suas próprias
+soluções e revisões.
 
 Para sincronizar os totais, sem concluir outro exercício:
 
