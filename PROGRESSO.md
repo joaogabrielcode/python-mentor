@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-31/43 exercícios concluídos (72.1%).
+32/43 exercícios concluídos (74.4%).
 
-Exercício atual: [04 — Custos mensais](07_lacos_for/ex04_custos_mensais.py).
+Exercício atual: [05 — Reajuste de preços](07_lacos_for/ex05_reajustar_precos.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -23,7 +23,7 @@ O registro é manual e não verifica se a solução está correta.
 | Listas | 5/5 | 100% |
 | Condicionais | 5/5 | 100% |
 | Dicionários | 5/5 | 100% |
-| Laços for | 3/5 | 60% |
+| Laços for | 4/5 | 80% |
 | Funções | 0/5 | 0% |
 | Tuplas | 0/5 | 0% |
 
@@ -78,7 +78,7 @@ O registro é manual e não verifica se a solução está correta.
 - [x] [01 — Lembretes de treinamento](07_lacos_for/ex01_lembretes_treinamento.py)
 - [x] [02 — Comissão de vendas](07_lacos_for/ex02_comissao_vendas.py)
 - [x] [03 — Estoque crítico](07_lacos_for/ex03_estoque_critico.py)
-- [ ] [04 — Custos mensais](07_lacos_for/ex04_custos_mensais.py)
+- [x] [04 — Custos mensais](07_lacos_for/ex04_custos_mensais.py)
 - [ ] [05 — Reajuste de preços](07_lacos_for/ex05_reajustar_precos.py)
 
 ## Funções
