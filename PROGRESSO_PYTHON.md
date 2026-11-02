@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 02/11/2026
 
-- Progresso: 36/43 exercícios concluídos (83,7%).
-- Último exercício concluído: [03 — Análise de margem](08_functions/ex03_analisar_margem.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [04 — Verificação de metas](08_functions/ex04_verificar_metas.py), próximo pendente; iniciar a tentativa.
+- Progresso: 37/43 exercícios concluídos (86,0%).
+- Último exercício concluído: [04 — Verificação de metas](08_functions/ex04_verificar_metas.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, calculou lucro e margem em função com dois parâmetros e classificou o resultado com limite inclusivo de 30%; versão traduzida para inglês e cinco casos conferidos antes da publicação.
+- Na sessão, aplicou acesso por chave ao faturamento e comparação inclusiva com a meta dentro de uma função; versão traduzida para inglês, exemplo e três casos adicionais conferidos antes da publicação.
 
 ## Histórico de revisões
 
@@ -40,3 +40,4 @@ com uma linha por tentativa.
 | 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) — tentativa 2 | Função, parâmetro, `if/else`, porcentagens e `return` | Correto — 10/10; aguardando confirmação de conclusão | Corrigiu as taxas e o retorno após orientação | Retorna apenas o imposto, aplica 3% até 5000 e 5% acima; execução com 0, 2000, 5000, 5001 e 8000 conferida |
 | 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) — revisão 3 | Função, parâmetro, `if/else`, porcentagens e `return` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Versão permanece correta; execução confirmou 60 para 2000, 400 para 8000 e taxas corretas no limite de 5000 e acima dele |
 | 2026-11-02 | [03 — Análise de margem](08_functions/ex03_analisar_margem.py) | Função com dois parâmetros, lucro, divisão, comparação e retorno de strings | Correto — 10/10; conclusão confirmada | Nenhuma observada | Calcula lucro e margem e classifica com limite inclusivo de 30%; cinco casos executados, incluindo 40%, 30%, abaixo do limite, lucro zero e prejuízo |
+| 2026-11-02 | [04 — Verificação de metas](08_functions/ex04_verificar_metas.py) | Função com dois parâmetros, dicionário, iteração por chave, acesso a valores, `>=` e f-string | Correto — 10/10; conclusão confirmada | Dúvida inicial sobre acesso ao faturamento e uso de `return`; aplicou a orientação | Percorre toda a equipe e imprime apenas quem atinge ou supera a meta; exemplo confirmou João, Ricardo e Fernanda; limite, equipe vazia e nenhum aprovado conferidos |
