@@ -1,12 +1,15 @@
-# Exercício 05 — Tempo de contrato
+# Exercise 05 — Contract duration
 #
-# Um cliente quer consultar a duração de seu contrato de manutenção de software em anos e meses, em vez de receber apenas o total de meses.
-# Converta a duração de um contrato de 40 meses para o formato "X anos e Y meses", usando divisão inteira e resto da divisão.
+# A customer wants to see the duration of a software maintenance contract in years and months
+# instead of a total number of months.
+# Convert a 40-month contract into the format "X years and Y months", using floor division and
+# modulo.
 
-# Sua solução:
+# Your solution:
 
-tempo = 40
-anos = tempo // 12
-meses = tempo % 12
 
-print(f"{anos} anos e {meses} meses")
+duration_months = 40
+years = duration_months // 12
+months = duration_months % 12
+
+print(f"{years} years and {months} months")
