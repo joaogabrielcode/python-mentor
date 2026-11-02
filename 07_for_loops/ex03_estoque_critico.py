@@ -1,15 +1,19 @@
-# Exercício 03 — Estoque crítico
+# Exercise 03 — Critical stock
 #
-# A logística precisa emitir alertas para os produtos cujo estoque está abaixo do mínimo.
-# Cada quantidade corresponde ao produto na mesma posição.
-# Dados estoque_produtos = ["monitor", "teclado", "mouse", "headset", "gabinete"] e estoque_quantidades = [5, 12, 2, 8, 15], com posições correspondentes, percorra as listas e identifique produtos abaixo do mínimo de 8 unidades.
-# Para cada um, exiba: "ALERTA: O produto [nome] está com apenas [quantidade] unidades no estoque!".
+# The logistics team needs alerts for products whose stock is below the minimum.
+# Each quantity corresponds to the product at the same position.
+# Given stock_products = ["monitor", "teclado", "mouse", "headset", "gabinete"] and
+# stock_quantities = [5, 12, 2, 8, 15], iterate over the corresponding lists and identify
+# products below the minimum of 8 units.
+# For each one, display: "ALERT: Product [name] has only [quantity] units in stock!".
+# The sample labels teclado and gabinete mean keyboard and computer case.
 
-# Sua solução:
+# Your solution:
 
-estoque_produtos = ["monitor", "teclado", "mouse", "headset", "gabinete"]
-estoque_quantidades = [5, 12, 2, 8, 15]
 
-for posicao in range(len(estoque_produtos)):
-    if estoque_quantidades[posicao] < 8:
-      print(f"ALERTA: O produto {estoque_produtos[posicao]} está com apenas {estoque_quantidades[posicao]} unidades no estoque!")
+stock_products = ["monitor", "teclado", "mouse", "headset", "gabinete"]
+stock_quantities = [5, 12, 2, 8, 15]
+
+for position in range(len(stock_products)):
+    if stock_quantities[position] < 8:
+      print(f"ALERT: Product {stock_products[position]} has only {stock_quantities[position]} units in stock!")
