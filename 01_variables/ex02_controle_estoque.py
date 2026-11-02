@@ -1,16 +1,18 @@
-# Exercício 02 — Controle de estoque
+# Exercise 02 — Inventory balance
 #
-# Uma loja virtual precisa fechar o saldo de smartphones após as movimentações do dia: vendas retiram unidades do estoque e entregas do fornecedor repõem itens.
-# O estoque começa com 250 unidades de um smartphone.
-# Foram vendidas 78 unidades e recebidas mais 100.
-# Atualize a variável de estoque e exiba o saldo final.
+# An online store needs to calculate its final smartphone inventory after the day's
+# transactions: sales remove units and supplier deliveries add them.
+# The starting stock is 250 smartphones.
+# The store sold 78 units and received 100 more.
+# Update the stock variable and display the final balance.
 
-# Sua solução:
+# Your solution:
 
-estoque = 250
-vendas = 78
-reposicao = 100
 
-estoque = estoque - vendas + reposicao
+inventory = 250
+sales = 78
+restocking = 100
 
-print(f"Estoque Atualizado: {estoque}")
+inventory = inventory - sales + restocking
+
+print(f"Updated inventory: {inventory}")
