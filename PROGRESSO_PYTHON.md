@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 02/11/2026
 
-- Progresso: 33/43 exercícios concluídos (76,7%); bloco de laços `for` concluído.
-- Último exercício: [05 — Reajuste de preços](07_for_loops/ex05_reajustar_precos.py), aprovado com 10/10 e conclusão publicada no commit `42b8fd3`.
-- Exercício atual para retomar: [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py), primeiro exercício pendente de funções.
+- Progresso: 34/43 exercícios concluídos (79,1%).
+- Último exercício concluído: [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, foram esclarecidos o percurso pelas chaves de um dicionário com `for`, o acesso ao valor pela chave e a formatação com `.2f`; as orientações foram aplicadas na solução aprovada.
+- Na sessão, praticou função com parâmetro e retorno, métodos de string e reutilização em um `for`; incluiu o teste com os cinco produtos após a primeira revisão.
 
 ## Histórico de revisões
 
@@ -34,3 +34,5 @@ com uma linha por tentativa.
 | 2026-11-01 | [04 — Custos mensais](07_for_loops/ex04_custos_mensais.py) — tentativa 2 | Dicionários, `for`, `if/else` e formatação monetária | Correto — 10/10; conclusão confirmada | Nenhuma observada | Aplicou duas casas decimais; execução confirmou excesso de R$150.00 em fev e jan e mar dentro do orçamento |
 | 2026-11-01 | [05 — Reajuste de preços](07_for_loops/ex05_reajustar_precos.py) | Dicionários, `for`, porcentagens, `input` e atualização por chave | Parcialmente correto — 9/10 | Corrigiu o cálculo para somar o aumento ao preço; falta apresentar o novo catálogo com formatação de preços | Atualiza todos os produtos com preço original mais aumento; execuções com 0%, 10% e 7,5% conferidas |
 | 2026-11-02 | [05 — Reajuste de preços](07_for_loops/ex05_reajustar_precos.py) — tentativa 2 | Dicionários, iteração por chave, porcentagens, atualização de valores e f-strings com `.2f` | Correto — 10/10; conclusão confirmada | Dúvida sobre iteração por chaves e acesso aos valores; aplicou a orientação na saída | Atualiza cada preço e exibe nome e valor com duas casas decimais; execuções com 0%, 10% e 7,5% conferidas |
+| 2026-11-02 | [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py) | Função, parâmetro, `return`, `lower`, `strip` e `title` | Parcialmente correto — 9/10 | Falta testar no arquivo a lista de produtos solicitada no enunciado | Função reutilizável normaliza corretamente os cinco produtos na verificação da revisão; tentativa do aluno testa apenas um nome |
+| 2026-11-02 | [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py) — tentativa 2 | Função, parâmetro, `return`, métodos de string, lista e `for` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Percorre a lista solicitada, chama a função para cada produto e imprime os cinco nomes padronizados corretamente; execução conferida |

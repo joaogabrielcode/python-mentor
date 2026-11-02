@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-33/43 exercícios concluídos (76.7%).
+34/43 exercícios concluídos (79.1%).
 
-Exercício atual: [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py).
+Exercício atual: [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -24,7 +24,7 @@ O registro é manual e não verifica se a solução está correta.
 | Conditionals | 5/5 | 100% |
 | Dictionaries | 5/5 | 100% |
 | For loops | 5/5 | 100% |
-| Functions | 0/5 | 0% |
+| Functions | 1/5 | 20% |
 | Tuples | 0/5 | 0% |
 
 ## Variables
@@ -83,7 +83,7 @@ O registro é manual e não verifica se a solução está correta.
 
 ## Functions
 
-- [ ] [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py)
+- [x] [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py)
 - [ ] [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py)
 - [ ] [03 — Análise de margem](08_functions/ex03_analisar_margem.py)
 - [ ] [04 — Verificação de metas](08_functions/ex04_verificar_metas.py)

@@ -1,11 +1,21 @@
-# Exercício 01 — Padronização de produtos
+# Exercise 01 — Product name standardization
 #
-# Uma loja virtual recebe nomes de produtos com espaços extras e letras maiúsculas e minúsculas misturadas.
-# A padronização deve ser reutilizável.
-# Crie padronizar_texto, que receba uma string e retorne o texto sem espaços nas extremidades e com a primeira letra de cada palavra em maiúscula.
-# Teste com produtos_baguncados = [
+# An online store receives product names with extra spaces and mixed letter cases.
+# The standardization must be reusable.
+# Create standardize_text, which takes a string and returns it without leading or
+# trailing spaces and with the first letter of each word capitalized.
+# Test with messy_products = [
 #     " celular 13 ", "NOTEBOOK PRO ", " fOnEs Pro", "tAblet mini ",
 #     " caixa de som sem fio "
 # ].
+# Sample product names are in Portuguese and must be preserved.
 
-# Sua solução:
+# Your solution:
+
+def standardize_text(text):
+  return text.lower().strip().title()
+
+messy_products = [" celular 13 ", "NOTEBOOK PRO ", " fOnEs Pro", "tAblet mini "," caixa de som sem fio "]
+
+for text in messy_products:
+  print(standardize_text(text))

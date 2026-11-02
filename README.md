@@ -294,7 +294,7 @@ exercício pendente na ordem do checklist.
 
 ## Functions
 
-- [ ] [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py)
+- [x] [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py)
 - [ ] [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py)
 - [ ] [03 — Análise de margem](08_functions/ex03_analisar_margem.py)
 - [ ] [04 — Verificação de metas](08_functions/ex04_verificar_metas.py)
