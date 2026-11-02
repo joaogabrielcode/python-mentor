@@ -1,21 +1,26 @@
-# Exercício 02 — Edição de estoque
+# Exercise 02 — Inventory editing
 #
-# Uma loja de eletrônicos precisa atualizar seu cadastro de estoque com a chegada de um produto, uma mudança de nome e a retirada de outro item.
-# Dado estoque = ["monitor", "teclado", "mouse", "headset"], adicione "webcam" ao final e altere "teclado" para "teclado mecanico".
-# Exiba True ou False para indicar se "impressora" está no estoque.
-# Remova "mouse" da lista.
+# An electronics store needs to update its inventory list after a product arrival, a product
+# rename and the removal of another item.
+# Given inventory = ["monitor", "teclado", "mouse", "headset"], append "webcam" and change
+# "teclado" to "teclado mecanico".
+# Display True or False to indicate whether "impressora" is in inventory.
+# Remove "mouse" from the list.
+# The Portuguese product labels are kept as sample data: teclado means keyboard and impressora
+# means printer.
 
-# Sua solução:
+# Your solution:
 
-estoque = ["monitor", "teclado", "mouse", "headset"]
-estoque.append("webcam")
-print(estoque)
 
-estoque[1] = "teclado mecanico"
-print(estoque)
+inventory = ["monitor", "teclado", "mouse", "headset"]
+inventory.append("webcam")
+print(inventory)
 
-tem_impressora = "impressora" in estoque
-print(tem_impressora)
+inventory[1] = "teclado mecanico"
+print(inventory)
 
-estoque.remove("mouse")
-print(estoque)
+has_printer = "impressora" in inventory
+print(has_printer)
+
+inventory.remove("mouse")
+print(inventory)
