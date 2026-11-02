@@ -1,15 +1,18 @@
-# Exercício 01 — Relatório de lucro
+# Exercise 01 — Profit report
 #
-# O setor financeiro de uma loja precisa apresentar a rentabilidade de um produto em uma mensagem com valores monetários e percentuais formatados.
-# Dados faturamento de R$ 45.000 e custo de R$ 23.500, calcule o lucro e a margem de lucro (lucro / faturamento).
-# Exiba uma mensagem com o lucro usando separador de milhar e duas casas decimais, e a margem como porcentagem inteira.
+# A store's finance department needs to present a product's profitability in a message with
+# formatted currency and percentage values.
+# Given revenue of R$45,000 and a cost of R$23,500, calculate the profit and profit margin
+# (profit / revenue).
+# Display a message with the profit using a thousands separator and two decimal places, and the
+# margin as a whole-number percentage.
 
-# Sua solução:
-faturamento = 45000
-custo = 23500
+# Your solution:
 
-lucro = faturamento - custo
-margem = lucro / faturamento
+revenue = 45000
+cost = 23500
 
-print(f"O lucro foi de R${lucro:,.2f} e a margem foi de {margem:.0%}")
+profit = revenue - cost
+margin = profit / revenue
 
+print(f"The profit was R${profit:,.2f} and the margin was {margin:.0%}")
