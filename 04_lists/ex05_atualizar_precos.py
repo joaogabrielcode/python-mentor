@@ -1,18 +1,21 @@
-# Exercício 05 — Atualização de preços
+# Exercise 05 — Price updates
 #
-# Uma loja de vinhos mantém nomes e preços em duas listas correspondentes.
-# Permita que o usuário escolha um vinho e altere seu preço.
-# Dados precos = [100.0, 250.0, 500.0] e vinhos = ["Branco", "Tinto", "Champagne"], com posições correspondentes, peça o nome do produto e seu novo preço.
-# Atualize o preço na lista e exiba as listas completas de nomes e preços.
+# A wine shop stores product names and prices in two corresponding lists.
+# Allow the user to choose a wine and change its price.
+# Given prices = [100.0, 250.0, 500.0] and wines = ["Branco", "Tinto", "Champagne"] with
+# corresponding positions, ask for a product name and its new price.
+# Update the price in the list and display both full lists.
+# The Portuguese wine labels Branco and Tinto mean white and red.
 
-# Sua solução:
-precos = [100.0, 250.0, 500.0]
-vinhos = ["Branco", "Tinto", "Champagne"]
-print(vinhos)
-print(precos)
-resposta = input("Qual vinho quer alterar o preço?")
-posicao = vinhos.index(resposta)
-novo_preco = float(input("Qual o novo preço?"))
-precos[posicao] = novo_preco
-print(vinhos)
-print(precos)
+# Your solution:
+
+prices = [100.0, 250.0, 500.0]
+wines = ["Branco", "Tinto", "Champagne"]
+print(wines)
+print(prices)
+answer = input('Which wine price would you like to change?')
+position = wines.index(answer)
+new_price = float(input('What is the new price?'))
+prices[position] = new_price
+print(wines)
+print(prices)
