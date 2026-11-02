@@ -298,7 +298,7 @@ exercício pendente na ordem do checklist.
 - [x] [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py)
 - [x] [03 — Análise de margem](08_functions/ex03_analisar_margem.py)
 - [x] [04 — Verificação de metas](08_functions/ex04_verificar_metas.py)
-- [ ] [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py)
+- [x] [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py)
 
 ## Tuples
 
