@@ -1,19 +1,21 @@
-# Exercício 02 — Cadastro de colaborador
+# Exercise 02 — Employee registration
 #
-# O RH precisa de um cadastro que identifique o colaborador pelo primeiro nome para o crachá e apresente seu e-mail de acesso padronizado.
-# Peça o nome completo e o e-mail pessoal do colaborador.
-# Extraia o primeiro nome e deixe sua primeira letra em maiúscula.
-# Remova os espaços extras do e-mail e deixe-o em minúsculas.
-# Exiba: "Cadastro concluído: [Primeiro Nome].
-# E-mail de acesso: [E-mail padronizado]".
+# HR needs a registration record that identifies an employee by their first name for a badge and
+# displays a normalized login email address.
+# Ask for the employee's full name and personal email address.
+# Extract the first name and capitalize its first letter.
+# Remove surrounding whitespace from the email and convert it to lowercase.
+# Display: "Registration complete: [First Name].
+# Login email: [Normalized Email]".
 
-# Sua solução:
-nome = input("Qual seu nome completo?")
-email = input("Qual seu email?")
+# Your solution:
 
-nomes = nome.split()
-primeiro_nome = nomes[0]
-primeiro_nome = primeiro_nome.capitalize()
+name = input('What is your full name?')
+email = input('What is your email address?')
+
+names = name.split()
+first_name = names[0]
+first_name = first_name.capitalize()
 email = email.strip().lower()
-print(f"Cadastro concluido: {primeiro_nome}")
-print(f"Email de acesso: {email}")
+print(f"Registration complete: {first_name}")
+print(f"Login email: {email}")
