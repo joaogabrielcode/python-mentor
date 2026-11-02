@@ -1,20 +1,23 @@
-# Exercício 01 — Perfil de investimento
+# Exercise 01 — Investment profile
 #
-# Uma corretora quer apresentar uma sugestão de investimento de acordo com a faixa do valor informado pelo usuário.
-# Peça o valor a investir, tratando entradas com "R$" ou vírgula.
-# Abaixo de R$ 1.000, exiba "Perfil iniciante: Sugerimos Tesouro Direto".
-# De R$ 1.000 a R$ 5.000, inclusive, exiba "Perfil moderado: Sugerimos Fundos Imobiliários".
-# Acima de R$ 5.000, exiba "Perfil arrojado: Sugerimos Ações".
+# A brokerage wants to display an investment suggestion according to the amount entered by the
+# user.
+# Ask for an investment amount, handling inputs with "R$" or a decimal comma.
+# Below R$1,000, display "Beginner profile: We suggest Treasury bonds".
+# From R$1,000 through R$5,000 inclusive, display "Moderate profile: We suggest Real Estate
+# Funds".
+# Above R$5,000, display "Aggressive profile: We suggest Stocks".
 
-# Sua solução:
+# Your solution:
 
-investimento = input("Qual valor deseja investir? ")
-investimento = investimento.replace("R$", "").replace(",", ".")
-investimento = float(investimento)
 
-if investimento > 5000:
-  print("Perfil arrojado: Sugerimos Ações")
-elif investimento >= 1000 and investimento <= 5000:
-  print("Perfil moderado: Sugerimos Fundos Imobiliários")
-else: 
-  print("Perfil iniciante: Sugerimos Tesouro Direto")
+investment = input('How much would you like to invest? ')
+investment = investment.replace("R$", "").replace(",", ".")
+investment = float(investment)
+
+if investment > 5000:
+  print('Aggressive profile: We suggest Stocks')
+elif investment >= 1000 and investment <= 5000:
+  print('Moderate profile: We suggest Real Estate Funds')
+else:
+  print('Beginner profile: We suggest Treasury bonds')
