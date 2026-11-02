@@ -1,12 +1,14 @@
-# Exercício 04 — Extração de usuário
+# Exercise 04 — Username extraction
 #
-# Um registro de acessos precisa identificar o usuário a partir do e-mail corporativo, sem incluir o domínio.
-# Dado o e-mail "beatriz.oliveira@grupocorp.com", extraia e exiba apenas o nome de usuário, a parte anterior ao @.
-# Use .find() e fatiamento de texto.
+# An access log needs to identify a user from their corporate email address, without the domain.
+# Given "beatriz.oliveira@grupocorp.com", extract and display only the username, which is the
+# part before @.
+# Use .find() and string slicing.
 
-# Sua solução:
+# Your solution:
+
 
 email = "beatriz.oliveira@grupocorp.com"
-posicao = email.find("@")
-nome = email[:posicao]
-print(nome)
+position = email.find("@")
+name = email[:position]
+print(name)
