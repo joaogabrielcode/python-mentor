@@ -1,15 +1,17 @@
-# Exercício 03 — Divisão de cargas
+# Exercise 03 — Cargo distribution
 #
-# Uma transportadora está planejando o envio de caixas em caminhões pequenos.
-# Determine a quantidade de cargas completas e o restante para outra viagem.
-# Distribua 1.250 caixas em caminhões com capacidade de 12 caixas cada.
-# Calcule quantos caminhões ficarão completamente cheios usando // e quantas caixas sobrarão para uma última viagem menor usando %.
+# A shipping company is planning to transport boxes in small trucks.
+# Determine the number of full loads and the boxes left for another trip.
+# Distribute 1,250 boxes among trucks that each hold 12 boxes.
+# Use // to calculate how many trucks will be completely full and % to calculate how many boxes
+# remain for a final smaller trip.
 
-# Sua solução:
+# Your solution:
 
-caixas = 1250
-capacidade_caminhoes = 12
-caminhoes_cheios = caixas // capacidade_caminhoes
-caixas_restantes = caixas % capacidade_caminhoes
-print(f"CAMINHOES CHEIOS: {caminhoes_cheios}")
-print(f"Caixas restantes: {caixas_restantes}")
+
+boxes = 1250
+truck_capacity = 12
+full_trucks = boxes // truck_capacity
+remaining_boxes = boxes % truck_capacity
+print(f"FULL TRUCKS: {full_trucks}")
+print(f"Remaining boxes: {remaining_boxes}")
