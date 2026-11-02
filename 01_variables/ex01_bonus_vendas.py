@@ -1,16 +1,18 @@
-# Exercício 01 — Bônus de vendas
+# Exercise 01 — Sales bonus
 #
-# A equipe de vendas receberá uma bonificação calculada sobre o faturamento da empresa.
-# Determine o impacto desse pagamento no valor que ficará disponível.
-# Dado um faturamento de R$ 50.000 e um bônus de 10% (0.10), calcule e exiba o bônus e o faturamento após descontá-lo.
+# The sales team will receive a bonus calculated from the company's revenue.
+# Determine how that payment affects the amount left over.
+# Given revenue of R$50,000 and a bonus rate of 10% (0.10), calculate and display the bonus and
+# the revenue remaining after paying it.
 
-# Sua solução:
+# Your solution:
 
-faturamento = 50000
-percentual_bonus = 0.10
 
-bonus = faturamento * percentual_bonus
-valor_restante = faturamento - bonus
+revenue = 50000
+bonus_rate = 0.10
 
-print(f"Bônus da equipe: R$ {bonus:.2f}")
-print(f"Faturamento após pagar o bônus: R$ {valor_restante:.2f}")
+bonus = revenue * bonus_rate
+remaining_revenue = revenue - bonus
+
+print(f"Team bonus: R$ {bonus:.2f}")
+print(f"Revenue after paying the bonus: R$ {remaining_revenue:.2f}")
