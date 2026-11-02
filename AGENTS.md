@@ -1,3 +1,28 @@
+# Idioma e registros da versão inicial
+
+Na `main` e nas branches de estudo derivadas dela, os exercícios estão separados
+em `exercises/pt/` e `exercises/en/`. Cada idioma tem 43 exercícios e registros
+independentes. Use o idioma indicado pelo aluno; sem indicação, use o idioma da
+conversa. Não some as duas traduções como se fossem 86 exercícios diferentes.
+
+- Português: `README.md`, `PROGRESSO.md` e `PROGRESSO_PYTHON.md`.
+- Inglês: `README.en.md`, `PROGRESS.en.md` e `MENTORING.en.md`.
+
+Esses caminhos substituem as referências fixas de progresso na skill conforme
+o idioma escolhido. Revise no idioma do aluno, preserve os resultados reais e
+mantenha o ponto de retomada no histórico correspondente.
+Para concluir em inglês, use `python3 progresso.py --language en complete caminho`;
+para português, use `python3 progresso.py concluir caminho`.
+O script também identifica o idioma pelo caminho do exercício quando a opção
+`--language` não é informada. Ao fazer commit de uma conclusão, inclua somente
+o exercício e os registros do idioma correspondente.
+
+A `main` publicada deve continuar com enunciados sem soluções e progresso zerado.
+Antes de salvar soluções de um novo estudante, crie ou use uma branch própria,
+como `my-study`. A prática pessoal do autor permanece em `my-practice`, com a
+estrutura original e exercícios em português. Evite trazer o progresso de uma
+branch para outra. Não edite exercícios sem autorização explícita.
+
 # Mentoria de Python
 
 Ao receber “Terminei”, “Pronto”, “Concluí”, “Corrige meu exercício”,
