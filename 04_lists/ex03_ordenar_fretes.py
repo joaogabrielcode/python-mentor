@@ -1,13 +1,15 @@
-# Exercício 03 — Ordenação de fretes
+# Exercise 03 — Shipping cost sorting
 #
-# Uma importadora quer apresentar os valores de frete em ordem decrescente e destacar as duas opções mais caras.
-# Dada a lista de fretes em dólar fretes = [50, 80, 20, 150, 40], ordene-a do maior para o menor.
-# Use fatiamento para guardar os dois fretes mais caros em top_fretes.
-# Exiba a lista original ordenada e a lista top_fretes.
+# An importer wants to show shipping costs in descending order and identify the two most
+# expensive options.
+# Given shipping_costs = [50, 80, 20, 150, 40] in dollars, sort the list from highest to lowest.
+# Use slicing to store the two highest costs in top_shipping_costs.
+# Display the sorted original list and top_shipping_costs.
 
-# Sua solução:
-fretes = [50, 80, 20, 150, 40]
-fretes.sort(reverse=True)
-top_fretes = fretes[:2]
-print(fretes)
-print(top_fretes)
+# Your solution:
+
+shipping_costs = [50, 80, 20, 150, 40]
+shipping_costs.sort(reverse=True)
+top_shipping_costs = shipping_costs[:2]
+print(shipping_costs)
+print(top_shipping_costs)
