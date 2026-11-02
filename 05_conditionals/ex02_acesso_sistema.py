@@ -1,18 +1,21 @@
-# Exercício 02 — Acesso ao sistema
+# Exercise 02 — System access
 #
-# Um painel de controle deve permitir a entrada somente de usuários cujos e-mails estejam cadastrados como administradores.
-# Dados admins = ["ana@empresa.com", "guilherme@empresa.com", "felipe@empresa.com"], peça o e-mail do usuário e padronize-o em minúsculas e sem espaços.
-# Se estiver em admins, exiba "Acesso liberado!
-# Bem-vindo ao painel de controle".
-# Caso contrário, exiba "Acesso negado.
-# Você não tem permissões de administrador".
+# A control panel should allow access only to users whose email addresses are registered as
+# administrators.
+# Given admins = ["ana@empresa.com", "guilherme@empresa.com", "felipe@empresa.com"], ask for the
+# user's email and normalize it to lowercase without surrounding whitespace.
+# If it is in admins, display "Access granted!
+# Welcome to the control panel".
+# Otherwise, display "Access denied.
+# You do not have administrator permissions".
 
-# Sua solução:
+# Your solution:
+
 admins = ["ana@empresa.com", "guilherme@empresa.com", "felipe@empresa.com"]
-email_user = input("Qual seu email?")
+email_user = input('What is your email address?')
 email_user = email_user.lower().strip()
 
 if email_user in admins:
-  print("Acesso liberado! \nBem-vindo ao painel de controle")
+  print('Access granted! \nWelcome to the control panel')
 else:
-  print("Acesso negado. \nVocê não tem permissões de administrador")
+  print('Access denied. \nYou do not have administrator permissions')
