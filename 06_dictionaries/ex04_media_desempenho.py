@@ -1,14 +1,16 @@
-# Exercício 04 — Média de desempenho
+# Exercise 04 — Average performance
 #
-# O RH mantém as três avaliações mais recentes de cada funcionário.
-# O gestor solicitou a média das notas de Paula.
-# Dado desempenho = {"Lira": [8, 9, 7], "Paula": [10, 9, 10], "Tiago": [6, 7, 8]}, acesse as notas de "Paula" e calcule a média, dividindo a soma das notas pela quantidade de notas.
-# Exiba: "A média de Paula foi [media]".
+# HR keeps each employee's three most recent performance ratings.
+# A manager has requested Paula's average rating.
+# Given performance = {"Lira": [8, 9, 7], "Paula": [10, 9, 10], "Tiago": [6, 7, 8]}, access
+# "Paula"'s ratings and calculate the average by dividing their sum by the number of ratings.
+# Display: "Paula's average was [average]".
 
-# Sua solução:
-desempenho = {"Lira": [8, 9, 7], "Paula": [10, 9, 10], "Tiago": [6, 7, 8]}
-paula = desempenho["Paula"]
-media = sum(paula) / len(paula)
+# Your solution:
 
-print(f"Essas foram as notas de Paula: {paula}")
-print(f"A media de Paula foi: {media:.2f}")
+performance = {"Lira": [8, 9, 7], "Paula": [10, 9, 10], "Tiago": [6, 7, 8]}
+paula = performance["Paula"]
+average = sum(paula) / len(paula)
+
+print(f"These were Paula's ratings: {paula}")
+print(f"Paula's average was: {average:.2f}")
