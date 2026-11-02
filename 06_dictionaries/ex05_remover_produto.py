@@ -1,12 +1,16 @@
-# Exercício 05 — Remoção de produto
+# Exercise 05 — Product removal
 #
-# Uma loja virtual descontinuou um produto e precisa retirá-lo do catálogo, registrando seu valor e conferindo se outro produto continua cadastrado.
-# Dado produtos = {"celular": 1500, "camera": 800, "radio": 200, "fone": 100}, remova "radio" usando .pop() e imprima o valor do produto removido.
-# Verifique se "celular" ainda existe no dicionário e imprima True ou False.
+# An online store has discontinued a product and needs to remove it from the catalog, record its
+# value and check that another product is still listed.
+# Given products = {"celular": 1500, "camera": 800, "radio": 200, "fone": 100}, remove "radio"
+# using .pop() and print the removed product's value.
+# Check whether "celular" still exists in the dictionary and print True or False.
+# The sample labels celular and fone mean cellphone and headphones.
 
-# Sua solução:
+# Your solution:
 
-produtos = {"celular": 1500, "camera": 800, "radio": 200, "fone": 100}
-print(f"Valor do produto removido: {produtos.pop("radio")}")
 
-print(f"Celular esta no catalogo? {"celular" in produtos}")
+products = {"celular": 1500, "camera": 800, "radio": 200, "fone": 100}
+print(f"Removed product value: {products.pop("radio")}")
+
+print(f"Is the cellphone in the catalog? {"celular" in products}")
