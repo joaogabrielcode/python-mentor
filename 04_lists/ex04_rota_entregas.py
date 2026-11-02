@@ -1,18 +1,20 @@
-# Exercício 04 — Rota de entregas
+# Exercise 04 — Delivery route
 #
-# Uma operação de entregas recebeu novas cidades de uma empresa parceira.
-# Atualize a rota e informe onde Sorocaba aparece no percurso.
-# Dados rota = ["Sao Paulo", "Campinas", "Jundiai", "Sorocaba"] e novas_cidades = ["Itu", "Valinhos"], una as listas usando extend.
-# Identifique o índice de "Sorocaba" e exiba a lista completa e esse índice.
-# Exiba também: "Sorocaba é a Xª cidade da rota".
+# A delivery service has received new cities from a partner company.
+# Update the route and report where Sorocaba appears.
+# Given route = ["Sao Paulo", "Campinas", "Jundiai", "Sorocaba"] and new_cities = ["Itu",
+# "Valinhos"], combine the lists with extend.
+# Find the index of "Sorocaba" and display the full list and that index.
+# Also display: "Sorocaba is city number X on the route".
 
-# Sua solução:
-rota = ["Sao Paulo", "Campinas", "Jundiai", "Sorocaba"]
-novas_cidades = ["Itu", "Valinhos"]
-rota.extend(novas_cidades)
-print(rota)
+# Your solution:
 
-indice = rota.index("Sorocaba")
-print(indice)
+route = ["Sao Paulo", "Campinas", "Jundiai", "Sorocaba"]
+new_cities = ["Itu", "Valinhos"]
+route.extend(new_cities)
+print(route)
 
-print(f"Sorocaba é a {indice + 1}ª cidade da rota")
+index = route.index("Sorocaba")
+print(index)
+
+print(f"Sorocaba is city number {index + 1} on the route")
