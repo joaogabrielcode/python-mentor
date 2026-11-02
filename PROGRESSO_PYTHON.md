@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 02/11/2026
 
-- Progresso: 35/43 exercícios concluídos (81,4%).
-- Último exercício concluído: [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [03 — Análise de margem](08_functions/ex03_analisar_margem.py), próximo pendente; tentativa em andamento, ainda não revisada.
+- Progresso: 36/43 exercícios concluídos (83,7%).
+- Último exercício concluído: [03 — Análise de margem](08_functions/ex03_analisar_margem.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [04 — Verificação de metas](08_functions/ex04_verificar_metas.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, corrigiu as porcentagens e o retorno do cálculo de ISS; versão traduzida para inglês e execução conferida antes da publicação.
+- Na sessão, calculou lucro e margem em função com dois parâmetros e classificou o resultado com limite inclusivo de 30%; versão traduzida para inglês e cinco casos conferidos antes da publicação.
 
 ## Histórico de revisões
 
@@ -39,3 +39,4 @@ com uma linha por tentativa.
 | 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) | Função, parâmetro, `if/else`, porcentagens e `return` | Parcialmente correto — 6/10 | Usa 0.5 e 0.3 (50% e 30%) e retorna valor mais imposto, embora o enunciado peça apenas o imposto | Define e chama a função com as duas notas e aplica corretamente o limite acima de 5000; execução com 0, 2000, 5000, 5001 e 8000 conferida |
 | 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) — tentativa 2 | Função, parâmetro, `if/else`, porcentagens e `return` | Correto — 10/10; aguardando confirmação de conclusão | Corrigiu as taxas e o retorno após orientação | Retorna apenas o imposto, aplica 3% até 5000 e 5% acima; execução com 0, 2000, 5000, 5001 e 8000 conferida |
 | 2026-11-02 | [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py) — revisão 3 | Função, parâmetro, `if/else`, porcentagens e `return` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Versão permanece correta; execução confirmou 60 para 2000, 400 para 8000 e taxas corretas no limite de 5000 e acima dele |
+| 2026-11-02 | [03 — Análise de margem](08_functions/ex03_analisar_margem.py) | Função com dois parâmetros, lucro, divisão, comparação e retorno de strings | Correto — 10/10; conclusão confirmada | Nenhuma observada | Calcula lucro e margem e classifica com limite inclusivo de 30%; cinco casos executados, incluindo 40%, 30%, abaixo do limite, lucro zero e prejuízo |

@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-35/43 exercícios concluídos (81.4%).
+36/43 exercícios concluídos (83.7%).
 
-Exercício atual: [03 — Análise de margem](08_functions/ex03_analisar_margem.py).
+Exercício atual: [04 — Verificação de metas](08_functions/ex04_verificar_metas.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -24,7 +24,7 @@ O registro é manual e não verifica se a solução está correta.
 | Conditionals | 5/5 | 100% |
 | Dictionaries | 5/5 | 100% |
 | For loops | 5/5 | 100% |
-| Functions | 2/5 | 40% |
+| Functions | 3/5 | 60% |
 | Tuples | 0/5 | 0% |
 
 ## Variables
@@ -85,7 +85,7 @@ O registro é manual e não verifica se a solução está correta.
 
 - [x] [01 — Padronização de produtos](08_functions/ex01_padronizar_produtos.py)
 - [x] [02 — Cálculo de ISS](08_functions/ex02_calcular_iss.py)
-- [ ] [03 — Análise de margem](08_functions/ex03_analisar_margem.py)
+- [x] [03 — Análise de margem](08_functions/ex03_analisar_margem.py)
 - [ ] [04 — Verificação de metas](08_functions/ex04_verificar_metas.py)
 - [ ] [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py)
 

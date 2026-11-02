@@ -1,8 +1,18 @@
-# Exercício 03 — Análise de margem
+# Exercise 03 — Margin analysis
 #
-# O setor financeiro quer classificar a rentabilidade de um produto a partir do faturamento e do custo.
-# Crie analisar_margem, que receba faturamento e custo e calcule a margem de lucro (lucro / faturamento).
-# Retorne "Margem Saudável" se a margem for maior ou igual a 30% e "Margem Baixa" se for menor.
-# Exiba o resultado para faturamento de R$ 10.000 e custo de R$ 6.000.
+# The finance department wants to classify a product's profitability using revenue and cost.
+# Create analyze_margin, which receives revenue and cost and calculates the profit margin (profit / revenue).
+# Return "Healthy Margin" if the margin is at least 30% and "Low Margin" if it is lower.
+# Display the result for revenue of R$ 10,000 and cost of R$ 6,000.
 
-# Sua solução:
+# Your solution:
+
+def analyze_margin(revenue, cost):
+  profit = revenue - cost
+  margin = profit / revenue
+  if margin >= 0.3:
+    return "Healthy Margin"
+  else:
+    return "Low Margin"
+
+print(analyze_margin(10000,6000))
