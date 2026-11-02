@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 02/11/2026
 
-- Progresso: 38/43 exercícios concluídos (88,4%).
-- Último exercício concluído: [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py), próximo pendente; iniciar a tentativa.
+- Progresso: 39/43 exercícios concluídos (90,7%).
+- Último exercício concluído: [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, reutilizou uma função de conversão dentro de outra função que percorre uma lista; corrigiu a operação para multiplicação e conferiu os resultados após a tradução para inglês. Os cinco exercícios de funções estão concluídos.
+- Na sessão, substituiu o acesso por índices pelo desempacotamento de uma tupla em latitude e longitude; versão traduzida para inglês e saída conferida antes da publicação.
 
 ## Histórico de revisões
 
@@ -43,3 +43,5 @@ com uma linha por tentativa.
 | 2026-11-02 | [04 — Verificação de metas](08_functions/ex04_verificar_metas.py) | Função com dois parâmetros, dicionário, iteração por chave, acesso a valores, `>=` e f-string | Correto — 10/10; conclusão confirmada | Dúvida inicial sobre acesso ao faturamento e uso de `return`; aplicou a orientação | Percorre toda a equipe e imprime apenas quem atinge ou supera a meta; exemplo confirmou João, Ricardo e Fernanda; limite, equipe vazia e nenhum aprovado conferidos |
 | 2026-11-02 | [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py) | Funções com parâmetros, retorno, chamada entre funções, lista, `for` e formatação `.2f` | Parcialmente correto — 8/10 | Usa divisão pela cotação na conversão de dólar para real; dúvida inicial sobre as responsabilidades das duas funções | Percorre a lista, reutiliza a função de conversão e imprime cada valor com duas casas; execução retornou 19.23, 9.62 e 48.08 em vez de 520.00, 260.00 e 1300.00 |
 | 2026-11-02 | [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py) — tentativa 2 | Funções com parâmetros, retorno, reutilização entre funções, lista, `for` e formatação `.2f` | Correto — 10/10; conclusão confirmada | Corrigiu a divisão para multiplicação após orientação | Converte cada preço usando a cotação recebida e imprime 520.00, 260.00 e 1300.00; exemplo, preço zero, cotação diferente, preço decimal e lista vazia conferidos |
+| 2026-11-02 | [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py) | Tupla, acesso por índice, f-string e quebra de linha | Parcialmente correto — 8/10 | Usa índices em vez do desempacotamento solicitado nas variáveis latitude e longitude | Cria a tupla e exibe as coordenadas corretas em duas linhas; execução conferida |
+| 2026-11-02 | [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py) — tentativa 2 | Tupla, desempacotamento, variáveis, f-string e quebra de linha | Correto — 10/10; conclusão confirmada | Aplicou o desempacotamento após orientação | Atribui os valores da tupla a latitude e longitude e usa as variáveis na saída; execução confirmou -23.5505 e -46.6333 |

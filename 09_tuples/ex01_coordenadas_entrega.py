@@ -1,8 +1,11 @@
-# Exercício 01 — Coordenadas de entrega
+# Exercise 01 — Delivery coordinates
 #
-# O sistema de entregas armazena cada localização em uma tupla e precisa separar suas coordenadas para apresentar o início da entrega.
-# Dada coordenadas = (-23.5505, -46.6333), use desempacotamento para extrair os valores nas variáveis latitude e longitude.
-# Exiba: "Iniciando entrega.
-# Latitude: [valor], Longitude: [valor]".
+# The delivery system stores each location in a tuple and needs to separate its coordinates to announce the start of a delivery.
+# Given coordinates = (-23.5505, -46.6333), use unpacking to extract the values into latitude and longitude.
+# Display: "Starting delivery.
+# Latitude: [value], Longitude: [value]".
 
-# Sua solução:
+# Your solution:
+coordinates = (-23.5505, -46.6333)
+latitude, longitude = coordinates
+print(f"Starting delivery\nLatitude: {latitude}, Longitude: {longitude}")

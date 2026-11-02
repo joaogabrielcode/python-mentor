@@ -302,7 +302,7 @@ exercício pendente na ordem do checklist.
 
 ## Tuples
 
-- [ ] [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py)
+- [x] [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py)
 - [ ] [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py)
 - [ ] [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py)
 - [ ] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
