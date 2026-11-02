@@ -1,13 +1,15 @@
-# Exercício 03 — Troca de domínio
+# Exercise 03 — Email domain replacement
 #
-# A empresa adotou um novo domínio para os e-mails dos funcionários.
-# Atualize o endereço informado para usar esse domínio.
-# Dado o e-mail "andre_silva@empresa.com.br", substitua automaticamente o domínio "@empresa.com.br" por "@grupocorp.com".
-# Exiba o novo endereço de e-mail.
+# The company has adopted a new domain for employee email addresses.
+# Update the supplied address to use that domain.
+# Given "andre_silva@empresa.com.br", automatically replace the domain "@empresa.com.br" with
+# "@grupocorp.com".
+# Display the new email address.
 
-# Sua solução:
+# Your solution:
+
 
 email = "andre_silva@empresa.com.br"
 email = email.replace("@empresa.com.br", "@grupocorp.com")
 
-print(f"Novo Email: {email}")
+print(f"New email: {email}")
