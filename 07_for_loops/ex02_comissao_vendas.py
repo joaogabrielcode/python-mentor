@@ -1,20 +1,22 @@
-# Exercício 02 — Comissão de vendas
+# Exercise 02 — Sales commission
 #
-# Um vendedor recebe comissão sobre cada venda, com uma taxa maior para operações que ultrapassam o limite definido.
-# Dada vendas = [2000, 5000, 1000, 8000, 3000], percorra a lista.
-# Cada venda acima de R$ 4.000 gera comissão de 10%; vendas de até R$ 4.000 geram comissão de 5%.
-# Ao final, exiba o total de comissão do vendedor.
+# A salesperson earns a commission on each sale, with a higher rate for transactions above a
+# defined threshold.
+# Given sales = [2000, 5000, 1000, 8000, 3000], iterate over the list.
+# Each sale above R$4,000 earns a 10% commission; sales of R$4,000 or less earn 5%.
+# At the end, display the salesperson's total commission.
 
-# Sua solução:
-
-vendas = [2000, 5000, 1000, 8000, 3000]
+# Your solution:
 
 
-comissao_total = 0
-for venda in vendas:
-  if venda > 4000:
-    comissao = venda * 0.10
+sales = [2000, 5000, 1000, 8000, 3000]
+
+
+total_commission = 0
+for sale in sales:
+  if sale > 4000:
+    commission = sale * 0.10
   else:
-    comissao = venda * 0.05
-  comissao_total += comissao
-print(f"Comissão total das vendas: R$ {comissao_total:.2f}")
+    commission = sale * 0.05
+  total_commission += commission
+print(f"Total sales commission: R$ {total_commission:.2f}")
