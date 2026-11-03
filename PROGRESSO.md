@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-39/43 exercícios concluídos (90.7%).
+40/43 exercícios concluídos (93.0%).
 
-Exercício atual: [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py).
+Exercício atual: [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -25,7 +25,7 @@ O registro é manual e não verifica se a solução está correta.
 | Dictionaries | 5/5 | 100% |
 | For loops | 5/5 | 100% |
 | Functions | 5/5 | 100% |
-| Tuples | 1/5 | 20% |
+| Tuples | 2/5 | 40% |
 
 ## Variables
 
@@ -92,7 +92,7 @@ O registro é manual e não verifica se a solução está correta.
 ## Tuples
 
 - [x] [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py)
-- [ ] [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py)
+- [x] [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py)
 - [ ] [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py)
 - [ ] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
 - [ ] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)

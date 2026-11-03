@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 02/11/2026
 
-- Progresso: 39/43 exercícios concluídos (90,7%).
-- Último exercício concluído: [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py), próximo pendente; iniciar a tentativa.
+- Progresso: 40/43 exercícios concluídos (93,0%).
+- Último exercício concluído: [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, substituiu o acesso por índices pelo desempacotamento de uma tupla em latitude e longitude; versão traduzida para inglês e saída conferida antes da publicação.
+- Na sessão, calculou desconto e salário líquido, retornou uma tupla e desempacotou os valores; versão traduzida para inglês e execução conferida antes da publicação.
 
 ## Histórico de revisões
 
@@ -45,3 +45,5 @@ com uma linha por tentativa.
 | 2026-11-02 | [05 — Conversão de moeda](08_functions/ex05_converter_moeda.py) — tentativa 2 | Funções com parâmetros, retorno, reutilização entre funções, lista, `for` e formatação `.2f` | Correto — 10/10; conclusão confirmada | Corrigiu a divisão para multiplicação após orientação | Converte cada preço usando a cotação recebida e imprime 520.00, 260.00 e 1300.00; exemplo, preço zero, cotação diferente, preço decimal e lista vazia conferidos |
 | 2026-11-02 | [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py) | Tupla, acesso por índice, f-string e quebra de linha | Parcialmente correto — 8/10 | Usa índices em vez do desempacotamento solicitado nas variáveis latitude e longitude | Cria a tupla e exibe as coordenadas corretas em duas linhas; execução conferida |
 | 2026-11-02 | [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py) — tentativa 2 | Tupla, desempacotamento, variáveis, f-string e quebra de linha | Correto — 10/10; conclusão confirmada | Aplicou o desempacotamento após orientação | Atribui os valores da tupla a latitude e longitude e usa as variáveis na saída; execução confirmou -23.5505 e -46.6333 |
+| 2026-11-02 | [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py) | Função, porcentagem, retorno de tupla, desempacotamento e f-string | Correto — 10/10; aguardando confirmação de conclusão | Dúvida inicial sobre o papel da tupla; aplicou retorno e desempacotamento | Calcula desconto e líquido, retorna ambos e desempacota na ordem correspondente; execução com 5000, 1000 e 0 conferida |
+| 2026-11-02 | [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py) — tentativa 2 | Função, porcentagem, retorno de tupla, desempacotamento e formatação `.2f` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Aplicou duas casas decimais; execução confirmou desconto de 500.00 e salário líquido de 4500.00 |
