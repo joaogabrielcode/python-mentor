@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-41/43 exercícios concluídos (95.3%).
+42/43 exercícios concluídos (97.7%).
 
-Exercício atual: [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py).
+Exercício atual: [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -25,7 +25,7 @@ O registro é manual e não verifica se a solução está correta.
 | Dictionaries | 5/5 | 100% |
 | For loops | 5/5 | 100% |
 | Functions | 5/5 | 100% |
-| Tuples | 3/5 | 60% |
+| Tuples | 4/5 | 80% |
 
 ## Variables
 
@@ -94,5 +94,5 @@ O registro é manual e não verifica se a solução está correta.
 - [x] [01 — Coordenadas de entrega](09_tuples/ex01_coordenadas_entrega.py)
 - [x] [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py)
 - [x] [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py)
-- [ ] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
+- [x] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
 - [ ] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)

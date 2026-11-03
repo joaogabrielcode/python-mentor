@@ -3,13 +3,13 @@
 Registro breve das revisões feitas com a skill `python-mentor`.
 As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
-## Ponto de retomada — 02/11/2026
+## Ponto de retomada — 03/11/2026
 
-- Progresso: 41/43 exercícios concluídos (95,3%).
-- Último exercício concluído: [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py), próximo pendente; iniciar a tentativa.
+- Progresso: 42/43 exercícios concluídos (97,7%).
+- Último exercício concluído: [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, desempacotou tuplas diretamente em um laço para calcular o total de cada venda; versão traduzida para inglês e saída conferida antes da publicação.
+- Na sessão, teve dificuldade em separar o trabalho da função e do laço; após orientação e exemplo completo, apresentou uma solução funcional com retorno e desempacotamento de tupla.
 
 ## Histórico de revisões
 
@@ -48,3 +48,4 @@ com uma linha por tentativa.
 | 2026-11-02 | [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py) | Função, porcentagem, retorno de tupla, desempacotamento e f-string | Correto — 10/10; aguardando confirmação de conclusão | Dúvida inicial sobre o papel da tupla; aplicou retorno e desempacotamento | Calcula desconto e líquido, retorna ambos e desempacota na ordem correspondente; execução com 5000, 1000 e 0 conferida |
 | 2026-11-02 | [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py) — tentativa 2 | Função, porcentagem, retorno de tupla, desempacotamento e formatação `.2f` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Aplicou duas casas decimais; execução confirmou desconto de 500.00 e salário líquido de 4500.00 |
 | 2026-11-02 | [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py) | Lista de tuplas, `for`, desempacotamento, multiplicação e f-string | Correto — 10/10; conclusão confirmada | Nenhuma observada | Desempacota cada venda diretamente no laço e calcula preço vezes quantidade; execução confirmou 1800, 750 e 800 |
+| 2026-11-03 | [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py) | Dicionário, listas, função, `sum`, `len`, média e desempacotamento de tupla | Correto — 10/10; conclusão confirmada | Precisou de orientação e exemplo completo para separar função e laço | Solução apresentada calcula e exibe total e média por filial; exemplo e listas adicionais conferidos; autonomia ainda em desenvolvimento |
