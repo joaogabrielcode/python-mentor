@@ -1,8 +1,13 @@
-# Exercício 03 — Vendas por produto
+# Exercise 03 — Sales by product
 #
-# O registro diário de vendas guarda um produto, seu preço unitário e a quantidade vendida em cada tupla.
-# Apresente o total de cada venda.
-# Dada vendas_dia = [("Monitor", 900, 2), ("Teclado", 150, 5), ("Mouse", 80, 10)], cada tupla contém (produto, preco_unitario, quantidade).
-# Use um laço for com desempacotamento diretamente no laço para extrair os três valores e exibir, para cada item: "Produto: [nome] | Total: R$[preco * quantidade]".
+# Each tuple in the daily sales record stores a product, its unit price, and the quantity sold.
+# Display the total for each sale.
+# Given daily_sales = [("Monitor", 900, 2), ("Teclado", 150, 5), ("Mouse", 80, 10)], each tuple contains (product, unit_price, quantity).
+# Teclado means keyboard in Portuguese.
+# Use a for loop with unpacking directly in the loop to display each item: "Product: [name] | Total: R$[price * quantity]".
 
-# Sua solução:
+# Your solution:
+
+daily_sales = [("Monitor", 900, 2), ("Teclado", 150, 5), ("Mouse", 80, 10)]
+for product, price, quantity in daily_sales:
+  print(f"Product: {product} | Total: R${price * quantity}")
