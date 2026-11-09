@@ -306,4 +306,4 @@ exercício pendente na ordem do checklist.
 - [x] [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py)
 - [x] [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py)
 - [x] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
-- [ ] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)
+- [x] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)

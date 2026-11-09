@@ -3,13 +3,13 @@
 Registro breve das revisões feitas com a skill `python-mentor`.
 As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
-## Ponto de retomada — 03/11/2026
+## Ponto de retomada — 09/11/2026
 
-- Progresso: 42/43 exercícios concluídos (97,7%).
-- Último exercício concluído: [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual para retomar: [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py), próximo pendente; iniciar a tentativa.
+- Progresso: 43/43 exercícios concluídos (100%).
+- Último exercício concluído: [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual: nenhum; todos os exercícios foram concluídos.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na sessão, teve dificuldade em separar o trabalho da função e do laço; após orientação e exemplo completo, apresentou uma solução funcional com retorno e desempacotamento de tupla.
+- Na última sessão, aplicou orientações sobre ordenação, índice negativo e unidade de tempo para concluir o resumo de chamados.
 
 ## Histórico de revisões
 
@@ -49,3 +49,6 @@ com uma linha por tentativa.
 | 2026-11-02 | [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py) — tentativa 2 | Função, porcentagem, retorno de tupla, desempacotamento e formatação `.2f` | Correto — 10/10; conclusão confirmada | Nenhuma observada | Aplicou duas casas decimais; execução confirmou desconto de 500.00 e salário líquido de 4500.00 |
 | 2026-11-02 | [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py) | Lista de tuplas, `for`, desempacotamento, multiplicação e f-string | Correto — 10/10; conclusão confirmada | Nenhuma observada | Desempacota cada venda diretamente no laço e calcula preço vezes quantidade; execução confirmou 1800, 750 e 800 |
 | 2026-11-03 | [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py) | Dicionário, listas, função, `sum`, `len`, média e desempacotamento de tupla | Correto — 10/10; conclusão confirmada | Precisou de orientação e exemplo completo para separar função e laço | Solução apresentada calcula e exibe total e média por filial; exemplo e listas adicionais conferidos; autonomia ainda em desenvolvimento |
+| 2026-11-09 | [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py) | `len`, ordenação de lista, retorno e desempacotamento | Parcialmente correto — 5/10 | Retorna variável não definida; ainda falta obter o máximo e exibir o alerta | Conta os elementos, ordena a lista e estruturou o retorno e o desempacotamento; execução interrompida por `NameError` |
+| 2026-11-09 | [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py) — tentativa 2 | `len`, `sort`, índice negativo, retorno e desempacotamento de tupla, f-string | Parcialmente correto — 9/10 | A mensagem informa segundos, mas os dados estão em minutos | Calcula 5 chamados e máximo de 120, retorna e desempacota ambos; execução conferida |
+| 2026-11-09 | [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py) — tentativa 3 | `len`, `sort`, índice negativo, retorno e desempacotamento de tupla, f-string | Correto — 10/10; conclusão confirmada | Corrigiu a unidade após orientação | Retorna 5 chamados e máximo de 120 minutos; execução conferida |

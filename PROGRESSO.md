@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-42/43 exercícios concluídos (97.7%).
+43/43 exercícios concluídos (100.0%).
 
-Exercício atual: [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py).
+Todos os exercícios foram concluídos.
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -25,7 +25,7 @@ O registro é manual e não verifica se a solução está correta.
 | Dictionaries | 5/5 | 100% |
 | For loops | 5/5 | 100% |
 | Functions | 5/5 | 100% |
-| Tuples | 4/5 | 80% |
+| Tuples | 5/5 | 100% |
 
 ## Variables
 
@@ -95,4 +95,4 @@ O registro é manual e não verifica se a solução está correta.
 - [x] [02 — Folha de pagamento](09_tuples/ex02_folha_pagamento.py)
 - [x] [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py)
 - [x] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
-- [ ] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)
+- [x] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)
