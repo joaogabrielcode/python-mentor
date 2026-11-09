@@ -5,11 +5,11 @@ As conclusões e o exercício atual continuam em [PROGRESSO.md](PROGRESSO.md).
 
 ## Ponto de retomada — 09/11/2026
 
-- Progresso: 43/43 exercícios concluídos (100%).
-- Último exercício concluído: [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py), aprovado com 10/10; conclusão confirmada.
-- Exercício atual: nenhum; todos os exercícios foram concluídos.
+- Progresso: 44/55 exercícios concluídos (80%).
+- Último exercício concluído: [01 — Vendas por equipe](10_practice/ex01_vendas_por_equipe.py), aprovado com 10/10; conclusão confirmada.
+- Exercício atual para retomar: [02 — Resumo de temperaturas](10_practice/ex02_resumo_temperaturas.py), próximo pendente; iniciar a tentativa.
 - Idioma de publicação: exercícios resolvidos em inglês; pendentes em português. Antes dos próximos commits autorizados, traduzir enunciado, comentários, identificadores e mensagens, preservando a lógica.
-- Na última sessão, aplicou orientações sobre ordenação, índice negativo e unidade de tempo para concluir o resumo de chamados.
+- Na última sessão, praticou o acesso aos valores do dicionário e a organização do laço dentro da função.
 
 ## Histórico de revisões
 
@@ -52,3 +52,6 @@ com uma linha por tentativa.
 | 2026-11-09 | [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py) | `len`, ordenação de lista, retorno e desempacotamento | Parcialmente correto — 5/10 | Retorna variável não definida; ainda falta obter o máximo e exibir o alerta | Conta os elementos, ordena a lista e estruturou o retorno e o desempacotamento; execução interrompida por `NameError` |
 | 2026-11-09 | [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py) — tentativa 2 | `len`, `sort`, índice negativo, retorno e desempacotamento de tupla, f-string | Parcialmente correto — 9/10 | A mensagem informa segundos, mas os dados estão em minutos | Calcula 5 chamados e máximo de 120, retorna e desempacota ambos; execução conferida |
 | 2026-11-09 | [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py) — tentativa 3 | `len`, `sort`, índice negativo, retorno e desempacotamento de tupla, f-string | Correto — 10/10; conclusão confirmada | Corrigiu a unidade após orientação | Retorna 5 chamados e máximo de 120 minutos; execução conferida |
+| 2026-11-09 | [01 — Vendas por equipe](10_practice/ex01_vendas_por_equipe.py) | Função, dicionário, `for`, comparação inclusiva, lista e retorno | Parcialmente correto — 8/10 | Falta fechar as aspas no `print` e registrar no arquivo o teste em que ninguém alcança a meta | Função isolada retornou os nomes corretos para metas de 1000 e 1500 e lista vazia para 2000; execução integral interrompida por erro de sintaxe |
+| 2026-11-09 | [01 — Vendas por equipe](10_practice/ex01_vendas_por_equipe.py) — tentativa 2 | Função, dicionário, `for`, comparação inclusiva, lista, retorno e f-string | Parcialmente correto — 9/10 | Falta no arquivo o teste solicitado com meta que ninguém alcance | Corrigiu as aspas; execução exibiu Ana e Carla para a meta de 1000 |
+| 2026-11-09 | [01 — Vendas por equipe](10_practice/ex01_vendas_por_equipe.py) — tentativa 3 | Função, dicionário, `for`, comparação inclusiva, lista, retorno e f-string | Correto — 10/10; conclusão confirmada | Após orientação, organizou o laço dentro da função e incluiu o teste solicitado | Execução exibiu Ana e Carla para meta de 1000 e lista vazia para 2000; limite igual conferido na revisão anterior |

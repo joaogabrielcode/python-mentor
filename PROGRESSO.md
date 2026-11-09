@@ -1,8 +1,8 @@
 # Progresso dos exercícios
 
-43/43 exercícios concluídos (100.0%).
+44/55 exercícios concluídos (80.0%).
 
-Todos os exercícios foram concluídos.
+Exercício atual: [02 — Resumo de temperaturas](10_practice/ex02_resumo_temperaturas.py).
 
 Ao terminar e conferir sua solução, registre a conclusão:
 
@@ -26,6 +26,8 @@ O registro é manual e não verifica se a solução está correta.
 | For loops | 5/5 | 100% |
 | Functions | 5/5 | 100% |
 | Tuples | 5/5 | 100% |
+| Practice | 1/6 | 17% |
+| OOP | 0/6 | 0% |
 
 ## Variables
 
@@ -96,3 +98,21 @@ O registro é manual e não verifica se a solução está correta.
 - [x] [03 — Vendas por produto](09_tuples/ex03_vendas_produtos.py)
 - [x] [04 — Vendas por filial](09_tuples/ex04_vendas_filiais.py)
 - [x] [05 — Resumo de chamados](09_tuples/ex05_resumo_chamados.py)
+
+## Practice
+
+- [x] [01 — Vendas por equipe](10_practice/ex01_vendas_por_equipe.py)
+- [ ] [02 — Resumo de temperaturas](10_practice/ex02_resumo_temperaturas.py)
+- [ ] [03 — Estoque crítico](10_practice/ex03_estoque_critico.py)
+- [ ] [04 — Pedidos por cliente](10_practice/ex04_pedidos_por_cliente.py)
+- [ ] [05 — Projeto: lista de tarefas](10_practice/ex05_menu_de_tarefas.py)
+- [ ] [06 — Projeto: relatório de vendas](10_practice/ex06_relatorio_de_vendas.py)
+
+## OOP
+
+- [ ] [01 — Primeiro objeto: produto](11_oop/ex01_classe_produto.py)
+- [ ] [02 — Conta bancária](11_oop/ex02_conta_bancaria.py)
+- [ ] [03 — Estado de uma tarefa](11_oop/ex03_tarefa.py)
+- [ ] [04 — Turma de alunos](11_oop/ex04_turma.py)
+- [ ] [05 — Projeto: carrinho de compras](11_oop/ex05_carrinho.py)
+- [ ] [06 — Projeto: empréstimo de livros](11_oop/ex06_biblioteca.py)
